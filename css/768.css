@@ -1,0 +1,138 @@
+/* 768
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+
+a.button {
+  background: #CE1E47;
+  background: -moz-linear-gradient(top, rgb(226,50,91), rgb(206,30,71) 50%, rgb(186,10,51));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(226,50,91)), to(rgb(186,10,51)));
+  background: -webkit-linear-gradient(top, rgb(226,50,91) rgb(186,10,51));
+  background: -o-linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
+  background: linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
+  -moz-box-shadow: 1px 1px 8px #223035;
+  -webkit-box-shadow: 1px 1px 8px #223035;
+  box-shadow: 1px 1px 8px #223035;
+  border: 2px solid rgb(206,30,71);
+  border-radius: 10px;
+}
+
+a.button:hover {
+  background: #FF5079;
+  background: -moz-linear-gradient(top, rgb(255,80,121), rgb(186,10,51));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255,80,121)), to(rgb(186,10,51)));
+  background: -webkit-linear-gradient(top, rgb(255,80,121) rgb(186,10,51));
+  background: -o-linear-gradient(top, rgb(255,80,121),  rgb(186,10,51));
+  background: linear-gradient(top, rgb(255,80,121),  rgb(186,10,51));
+  -moz-box-shadow: 1px 1px 8px #223035;
+  -webkit-box-shadow: 1px 1px 8px #223035;
+  box-shadow: 1px 1px 8px #223035;
+  border: 2px solid rgb(206,30,71);
+}
+
+a.button:active {
+  -moz-box-shadow: 1px 1px 3px #223035;
+  -webkit-box-shadow: 1px 1px 3px #223035;
+  box-shadow: 1px 1px 3px #223035;
+}
+
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+
+.logo {
+  width: 38%;
+  height: 176px;
+  float: left;
+  background: url(../img/logo.png) no-repeat top left;
+}
+
+.ug-info {
+  width: 50%;
+  display: block;
+  float: left;
+  margin-top: 35px;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+
+.teaser a.button {
+  position: absolute;
+  width: 30%;
+  top: 70%;
+  left: 47%;
+  font-size: 1.5em;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-shadow: -1px -1px 0px #9C0015, 1px 1px 0px #FF6479;
+}
+
+.col-third {
+  width: 33%;
+  float: left;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.promo p {
+  width: 75%;
+}
+
+/* 11.MAIN */
+
+
+
+/* 12.COMPLIMENTARY */
+
+
+
+/* 13.CONTENTINFO */
+
+footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #223035;
+  background: url(../img/shadow.png) no-repeat top center;
+}
+
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

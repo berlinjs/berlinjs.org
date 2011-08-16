@@ -1,0 +1,108 @@
+/* 992
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+.logo {
+  width: 30%;
+  height: 176px;
+  float: left;
+  background: url(../img/logo.png) no-repeat top left;
+}
+
+.ug-info {
+  float: left;
+  width: 65%;
+  font-size: 1.25em;
+}
+
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+
+.speaker {
+  width: 23%;
+  margin-right: 2.666667%;
+  float: left;
+}
+
+.speaker:last-child {
+  margin-right: 0;
+}
+
+.reject-headline {
+  margin-left: 10%;
+  margin-bottom: 0;
+  font-size: 4.2em;
+  text-shadow: 3px 3px 0 #223035;
+}
+
+.reject-subhead {
+  margin-left: 10%;
+  font-size: 1.5em;
+}
+
+.call-speakers {
+  margin-bottom: 0;
+  font-size: 3.5em;
+}
+
+.speaker-invite {
+  font-weight: normal;
+  font-size: 1.5em;
+  letter-spacing: -0.01em;
+
+}
+
+/* 11.MAIN */
+
+.promo p {
+  width: 65%;
+}
+
+/* 12.COMPLIMENTARY */
+
+[role="complementary"] {
+  float: right;
+  width: 38%;
+}
+
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

@@ -1,0 +1,102 @@
+/* 480
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+
+body {
+  font-size: 100%;
+}
+
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+
+.ug-info {
+  width: 90%;
+  margin: 0 auto 10px auto;
+  text-align: center;
+}
+
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+
+.speaker {
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.teaser a.button {
+  position: absolute;
+  width: 30%;
+  top: 70%;
+  left: 50%;
+  border-radius: 5px;
+  font-size: 0.8em;
+  padding: 2px 5px;
+}
+
+.sponsor-link {
+  width: 160px;
+  height: 160px;
+  display: block;
+  background: url(../img/sponsor.png) no-repeat 0 0;
+  color: transparent;
+}
+
+.sponsor-link:hover {
+  background: url(../img/sponsor.png) no-repeat 0 -160px;
+  color: transparent;
+}
+
+/* 11.MAIN */
+
+
+/* 12.COMPLIMENTARY */
+
+/* 13.CONTENTINFO */
+
+footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #223035;
+}
+
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */
