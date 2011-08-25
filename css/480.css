@@ -60,6 +60,92 @@ body {
   float: left;
 }
 
+/* --- RejectJS Teaser Styles --- */
+
+.teaser {
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.teaser-text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.teaser-text h1,
+.teaser-text h2,
+.teaser-text h3,
+.teaser-text h4 {
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+  -moz-transition: font-size 1s linear 0.5s;
+  -webkit-transition: font-size 1s linear 0.5s;
+  -o-transition: font-size 1s linear 0.5s;
+  transition: font-size 1s linear 0.5s;
+}
+
+.teaser-text h1 {
+  margin-bottom: 0;
+  margin-top: 22%;
+  font-size: 1.75em;
+  text-shadow: 2px 2px 0 #223035;
+}
+
+.teaser-text h2 {
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+.teaser-text h3 {
+  margin-top: 15%;
+  margin-bottom: 0;
+  font-size: 1.44em;
+}
+
+.teaser-text h4 {
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.teaser-text hgroup {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.teaser-text aside {
+  width: 55%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+.deadline {
+  width: 700px;
+  height: 40px;
+  padding: 5px 0;
+  position: absolute;
+  top: 20px;
+  right: -270px;
+  display: block;
+  background: #fff;
+  font-size: 0.45em;
+  text-align: center;
+  -moz-box-shadow: 0px 0px 10px #222;
+  -webkit-box-shadow: 0px 0px 10px #222;
+  -o-box-shadow: 0px 0px 10px #222;
+  box-shadow: 0px 0px 10px #222;
+  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+/* --- END Teaser Styles --- */
+
 .teaser a.button {
   position: absolute;
   width: 30%;

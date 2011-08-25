@@ -38,8 +38,9 @@ _____________________________________________________
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
+
 .logo {
-  width: 30%;
+  width: 260px;
   height: 176px;
   float: left;
   background: url(../img/logo.png) no-repeat top left;
@@ -53,6 +54,88 @@ _____________________________________________________
 
 /* 9.NAVIGATION */
 /* 10.CONTENT */
+
+/* --- RejectJS Teaser Styles --- */
+
+.teaser {
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.teaser-text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.teaser-text h1,
+.teaser-text h2,
+.teaser-text h3,
+.teaser-text h4 {
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+
+.teaser-text h1 {
+  margin-bottom: 0;
+  margin-top: 22%;
+  font-size: 3.65em;
+  text-shadow: 2px 2px 0 #223035;
+}
+
+.teaser-text h2 {
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+.teaser-text h3 {
+  margin-top: 15%;
+  margin-bottom: 0;
+  font-size: 2.95em;
+}
+
+.teaser-text h4 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.teaser-text hgroup {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.teaser-text aside {
+  width: 55%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+.deadline {
+  width: 700px;
+  height: 60px;
+  padding: 5px 0;
+  position: absolute;
+  top: 50px;
+  right: -200px;
+  display: block;
+  background: #fff;
+  font-size: 0.8em;
+  text-align: center;
+  -moz-box-shadow: 0px 0px 10px #222;
+  -webkit-box-shadow: 0px 0px 10px #222;
+  -o-box-shadow: 0px 0px 10px #222;
+  box-shadow: 0px 0px 10px #222;
+  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+/* --- END Teaser Styles --- */
 
 .speaker {
   width: 23%;

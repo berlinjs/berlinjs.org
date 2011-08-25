@@ -74,23 +74,144 @@ a.button:active {
 /* 8.BANNER */
 
 .logo {
-  width: 38%;
+  width: 260px;
   height: 176px;
   float: left;
   background: url(../img/logo.png) no-repeat top left;
 }
 
 .ug-info {
-  width: 50%;
-  display: block;
+  width: 60%;
   float: left;
-  margin-top: 35px;
   font-size: 1.25em;
   text-align: left;
 }
 
+.triangle-border {
+  position: relative;
+  padding: 10px;
+  margin: 1em 0 1em;
+  border: 5px solid #e1e1e1;
+  color: #223035;
+  background: #fff;
+}
+
+.triangle-border.left {
+  margin-left: 30px;
+}
+
+.triangle-border:before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+
+.triangle-border:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+
+.triangle-border.left:before {
+  top: 10px;
+  bottom: auto;
+  left: -25px;
+  border-width: 25px 25px 25px 0;
+  border-color: transparent #e1e1e1;
+}
+
+.triangle-border.left:after {
+  top: 17px;
+  bottom: auto;
+  left: -17px;
+  border-width: 18px 18px 18px 0;
+  border-color: transparent #fff;
+}
+
 /* 9.NAVIGATION */
 /* 10.CONTENT */
+
+/* --- RejectJS Teaser Styles --- */
+
+.teaser {
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.teaser-text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.teaser-text h1,
+.teaser-text h2,
+.teaser-text h3,
+.teaser-text h4 {
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+
+.teaser-text h1 {
+  margin-bottom: 0;
+  margin-top: 22%;
+  font-size: 2.8em;
+  text-shadow: 2px 2px 0 #223035;
+}
+
+.teaser-text h2 {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.teaser-text h3 {
+  margin-top: 15%;
+  margin-bottom: 0;
+  font-size: 2.3em;
+}
+
+.teaser-text h4 {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.teaser-text hgroup {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.teaser-text aside {
+  width: 55%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+.deadline {
+  width: 700px;
+  height: 60px;
+  padding: 5px 0;
+  position: absolute;
+  top: 30px;
+  right: -250px;
+  display: block;
+  background: #fff;
+  font-size: 0.75em;
+  text-align: center;
+  -moz-box-shadow: 0px 0px 10px #222;
+  -webkit-box-shadow: 0px 0px 10px #222;
+  -o-box-shadow: 0px 0px 10px #222;
+  box-shadow: 0px 0px 10px #222;
+  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+/* --- END Teaser Styles --- */
 
 .teaser a.button {
   position: absolute;

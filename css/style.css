@@ -351,6 +351,7 @@ h1 span {
 
 .logo {
   height: 135px;
+  width: 260px;
   margin: 0 auto 10px auto;
   background: url(../img/logo-s.png) no-repeat top center;
 }
@@ -359,6 +360,21 @@ h1 span {
   width: 90%;
   margin: 0 auto 10px auto;
   text-align: center;
+  
+}
+
+.triangle-border {
+  position: relative;
+  padding: 10px;
+  margin: 1em 0 1em;
+  border: 5px solid #e1e1e1;
+  color: #223035;
+  background: #fff;
+  box-shadow: 0 0 5px #666;
+}
+
+.triangle-border.left {
+  margin-left: 0;
 }
 
 /* 9.NAVIGATION */
@@ -410,10 +426,98 @@ nav li {
   margin: 0 auto 20px auto;
 }
 
+/* --- RejectJS Teaser Styles --- */
+
 .teaser {
   position: relative;
   margin-bottom: -5px;
+  overflow: hidden;
 }
+
+.teaser-text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.teaser-text h1,
+.teaser-text h2,
+.teaser-text h3,
+.teaser-text h4 {
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+
+.teaser-text h1 {
+  margin-bottom: 0;
+  margin-top: 22%;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 0 #223035;
+}
+
+.teaser-text h2 {
+  font-size: 0.5em;
+  font-weight: normal;
+}
+
+.teaser-text h3 {
+  margin-top: 15%;
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+.teaser-text h4 {
+  font-size: 0.5em;
+  font-weight: normal;
+}
+
+.teaser-text hgroup {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.teaser-text aside {
+  width: 55%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+.teaser a.button {
+  position: absolute;
+  width: 35%;
+  top: 70%;
+  left: 45%;
+  font-size: 0.8em;
+  padding: 2px 5px;
+  text-shadow: none;
+}
+
+.deadline {
+  width: 700px;
+  height: 30px;
+  padding: 5px 0;
+  position: absolute;
+  top: 10px;
+  right: -310px;
+  display: block;
+  background: #fff;
+  font-size: 0.4em;
+  text-align: center;
+  -moz-box-shadow: 0px 0px 10px #222;
+  -webkit-box-shadow: 0px 0px 10px #222;
+  -o-box-shadow: 0px 0px 10px #222;
+  box-shadow: 0px 0px 10px #222;
+  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+/* --- END Teaser Styles --- */
 
 .teaser a.button {
   position: absolute;
