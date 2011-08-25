@@ -74,12 +74,12 @@ body {
   width: 160px;
   height: 160px;
   display: block;
-  background: url(../img/sponsor.png) no-repeat 0 0;
+  background: url(../img/cfs.png) no-repeat 0 0;
   color: transparent;
 }
 
 .sponsor-link:hover {
-  background: url(../img/sponsor.png) no-repeat 0 -160px;
+  background: url(../img/cfs.png) no-repeat 0 -160px;
   color: transparent;
 }
 
