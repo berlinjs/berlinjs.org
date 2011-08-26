@@ -80,10 +80,6 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: none;
-  -moz-transition: font-size 1s linear 0.5s;
-  -webkit-transition: font-size 1s linear 0.5s;
-  -o-transition: font-size 1s linear 0.5s;
-  transition: font-size 1s linear 0.5s;
 }
 
 .teaser-text h1 {
