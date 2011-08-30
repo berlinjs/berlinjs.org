@@ -53,13 +53,6 @@ body {
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 
-.speaker {
-  width: 48%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  float: left;
-}
-
 /* --- RejectJS Teaser Styles --- */
 
 .teaser {
@@ -142,6 +135,13 @@ body {
 
 /* --- END Teaser Styles --- */
 
+.speaker {
+  width: 100%;
+  margin: 0 1% 2% 1%;
+  float: left;
+  border: none;
+}
+
 .teaser a.button {
   position: absolute;
   width: 30%;
@@ -163,6 +163,48 @@ body {
 .sponsor-link:hover {
   background: url(../img/cfs.png) no-repeat 0 -160px;
   color: transparent;
+}
+
+.attendees ul {
+  display: inline;
+  list-style: none;
+  font-size: 0.75em;
+}
+
+.attendees ul li {
+  float: left;
+}
+
+.attendees li a {
+  height: 20px;
+  display: block;
+  background: #e1e1e1;
+  margin: 5px;
+  padding: 3px;
+  vertical-align: center;
+  text-decoration: none;
+}
+
+.attendees li a:hover {
+  color: #fff;
+  background: #CE1E47;
+}
+
+.attendees li a img {
+  width: 20px;
+  height: 20px;
+  display: inline;
+  overflow: hidden;
+  margin-right: 5px;
+  float: left;
+}
+
+.attendees a.join {
+  padding: 3px 8px 3px 3px;
+  background: #CE1E47;
+  box-shadow: 0px 0px 5px #111;
+  color: #fff;
+  font-weight: 700;
 }
 
 /* 11.MAIN */

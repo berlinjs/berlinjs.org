@@ -169,8 +169,15 @@ ol,
 ul,
 dl,
 address {
-margin-bottom : 1.5em;
-font-size : 1em; /* 16 / 16 = 1 */ }
+  margin-bottom : 1.5em;
+  font-size : 1em;
+}
+
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
 
 ul,
 ol {
@@ -268,11 +275,11 @@ a.smallbutton {
   padding: 10px 30px 8px 30px;
   display: tablecell;
   background: #CE1E47;
-  background: -moz-linear-gradient(top, rgb(226,50,91), rgb(206,30,71) 50%, rgb(186,10,51));
+  background: -moz-linear-gradient(top, rgb(226,50,91), rgb(186,10,51));
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(226,50,91)), to(rgb(186,10,51)));
   background: -webkit-linear-gradient(top, rgb(226,50,91) rgb(186,10,51));
-  background: -o-linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
-  background: linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
+  background: -o-linear-gradient(top, rgb(226,50,91), rgb(186,10,51));
+  background: linear-gradient(top, rgb(226,50,91), rgb(186,10,51));
   border-radius: 5px;
   color: #fff;
   font-size: 1.25em;
@@ -360,7 +367,9 @@ h1 span {
   width: 90%;
   margin: 0 auto 10px auto;
   text-align: center;
-
+  font-size: 1em;
+  font-weight: normal;
+  text-shadow: none;
 }
 
 .triangle-border {
@@ -379,6 +388,12 @@ h1 span {
 
 /* 9.NAVIGATION */
 
+nav {
+  width: 100%;
+  margin: 1em 0;
+  background: url(../img/bg-nav.gif) repeat-x left center;
+}
+
 nav ul {
   display: block;
   list-style: none;
@@ -386,14 +401,55 @@ nav ul {
 
 nav li {
   float: left;
-  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav li a:before {
+  content: "\2022   ";
+}
+
+nav li a:after {
+  content: "   \2022";
+}
+
+nav li a:link,
+nav li a:visited {
+  display: block;
+  padding: 5px 10px;
+  background: #f9f9f9;
+  border-left: 1px solid #1ea0ce;
+  border-right: 1px solid #1ea0ce;
+  color: #1ea0ce;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+nav li a:hover {
+  background: rgb(30,160,206);
+  color: #fff;
+  box-shadow: 0px 0px 5px #555;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+nav li a.active {
+  background: rgb(30,160,206);
+  color: #fff;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+#nextmeetup {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /* 10.CONTENT */
 
+.content {
+}
+
 .speaker {
   padding: 10px;
-  background: #f3f3f3;
   border-top: 1px solid white;
   border-bottom: 1px solid #f3f3f3;
 }
@@ -417,7 +473,7 @@ nav li {
   color: transparent;
 }
 
-.promo {
+.promo, .attendees {
   padding-bottom: 20px;
 }
 
@@ -519,16 +575,6 @@ nav li {
 
 /* --- END Teaser Styles --- */
 
-.teaser a.button {
-  position: absolute;
-  width: 35%;
-  top: 70%;
-  left: 45%;
-  font-size: 0.8em;
-  padding: 2px 5px;
-  text-shadow: none;
-}
-
 .col-third {
   width: 100%;
   float: left;
@@ -577,6 +623,28 @@ object,img {
   background: #f3f3f3;
   border-left: 1px solid #1ea0ce;
   border-right: 1px solid #1ea0ce;
+}
+
+.attendees ul {
+  list-style: none;
+}
+
+.attendees ul li {
+  float: left;
+  margin-left: 5px;
+}
+
+.attendees ul a {
+  display: inline;
+  background: none;
+}
+
+.attendees ul a img {
+  display: none;
+}
+
+.attendees a.join{
+  font-weight: 700;
 }
 
 /* 11.MAIN */
@@ -711,23 +779,3 @@ width : auto; }
 visibility : hidden; }
 
 /* 16.TEMPLATE SPECIFICS */
-
-/* 17.MODERNIZR */
-
-/*
-Sources:
-http://meyerweb.com/eric/tools/css/reset
-http://people.opera.com/patrickl/experiments/keyboard/test
-http://gist.github.com/413930
-http://pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap
-http://sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars
-http://tjkdesign.com/ez-css/css/base.css
-http://viget.com/inspire/styling-the-button-element-in-internet-explorer
-http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing
-http://html5doctor.com/html-5-reset-stylesheet/
-http://praegnanz.de/weblog/htmlcssjs-kickstart/
-http://camendesign.com/design/
-http://yui.yahooapis.com/2.8.1/build/base/base.css
-http://webaim.org/techniques/css/invisiblecontent/
-http://drupal.org/node/897638
-*/
