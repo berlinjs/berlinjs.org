@@ -496,27 +496,6 @@ nav li {
   text-shadow: none;
 }
 
-.deadline {
-  width: 700px;
-  height: 30px;
-  padding: 5px 0;
-  position: absolute;
-  top: 10px;
-  right: -310px;
-  display: block;
-  background: #fff;
-  font-size: 0.4em;
-  text-align: center;
-  -moz-box-shadow: 0px 0px 10px #222;
-  -webkit-box-shadow: 0px 0px 10px #222;
-  -o-box-shadow: 0px 0px 10px #222;
-  box-shadow: 0px 0px 10px #222;
-  -moz-transform: rotate(25deg);
-  -webkit-transform: rotate(25deg);
-  -o-transform: rotate(25deg);
-  transform: rotate(25deg);
-}
-
 /* --- END Teaser Styles --- */
 
 .teaser a.button {

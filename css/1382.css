@@ -105,27 +105,6 @@ body {
   left: 35%;
 }
 
-.deadline {
-  width: 700px;
-  height: 75px;
-  padding: 5px 0;
-  position: absolute;
-  top: 60px;
-  right: -190px;
-  display: block;
-  background: #fff;
-  font-size: 1em;
-  text-align: center;
-  -moz-box-shadow: 0px 0px 10px #222;
-  -webkit-box-shadow: 0px 0px 10px #222;
-  -o-box-shadow: 0px 0px 10px #222;
-  box-shadow: 0px 0px 10px #222;
-  -moz-transform: rotate(25deg);
-  -webkit-transform: rotate(25deg);
-  -o-transform: rotate(25deg);
-  transform: rotate(25deg);
-}
-
 /* --- END Teaser Styles --- */
 
 /* 11.MAIN */
