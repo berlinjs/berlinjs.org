@@ -531,6 +531,11 @@ div.col-third:first-child {
   border-bottom: none;
 }
 
+.sponsors img {
+  margin: 1em;
+  vertical-align: middle;
+}
+
 object,img {
   max-width: 100%;
 }
