@@ -447,6 +447,10 @@ nav li a.active {
   text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
 }
 
+.rejectjs nav li {
+  float: none;
+  }
+
 #nextmeetup {
   color: inherit;
   text-decoration: inherit;
@@ -640,6 +644,7 @@ object,img {
 }
 
 .attendees ul {
+  padding: 0 20px 20px 20px;
   list-style: none;
 }
 
@@ -654,7 +659,8 @@ object,img {
 }
 
 .attendees ul a img {
-  display: none;
+  width: 30px;
+  height: 30px;
 }
 
 .attendees a.join{

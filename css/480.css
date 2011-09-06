@@ -166,7 +166,8 @@ body {
 }
 
 .attendees ul {
-  display: inline;
+  margin: 0 auto;
+  display: block;
   list-style: none;
   font-size: 0.75em;
 }
@@ -176,10 +177,11 @@ body {
 }
 
 .attendees li a {
-  height: 20px;
+  height: 48px;
+  width: 48px;
   display: block;
   background: #e1e1e1;
-  margin: 5px;
+  margin: 5px 5px 0 0;
   padding: 3px;
   vertical-align: center;
   text-decoration: none;
@@ -191,19 +193,18 @@ body {
 }
 
 .attendees li a img {
-  width: 20px;
-  height: 20px;
+  width: 48px;
+  height: 48px;
   display: inline;
   overflow: hidden;
-  margin-right: 5px;
   float: left;
 }
 
 .attendees a.join {
-  padding: 3px 8px 3px 3px;
-  background: #CE1E47;
-  box-shadow: 0px 0px 5px #111;
-  color: #fff;
+  width: 111px;
+  padding: 3px 3px;
+  color: #CE1E47;
+  font-size: 1.1em;
   font-weight: 700;
 }
 
