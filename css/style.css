@@ -128,39 +128,42 @@ h6 {
 }
 
 h1 {
-margin-bottom : .75em;
-font-size : 3em; /* 48 / 16 = 3 */
-line-height : 1.2;
+  margin-bottom : .75em;
+  font-size : 3em;
+  line-height : 1.2;
 }
 
 h2 {
-margin-bottom : .75em;
-font-size : 2em; /* 36 / 16 = 2 */
-line-height : 1.2;
+  margin-bottom : .75em;
+  font-size : 2em;
+  line-height : 1.2;
 }
 
 h3 {
-margin-bottom : 1em;
-font-size : 1.5em; /* 24 / 16 = 1.5 */
-line-height : 1.3; }
+  margin-bottom : 1em;
+  font-size : 1.5em;
+  line-height : 1.3;
+}
 
 h4 {
-margin-bottom : 1.25em;
-font-size : 1.25em; /* 20 / 16 = 1.25 */
-line-height : 1.25; }
+  margin-bottom : 1.25em;
+  font-size : 1.25em;
+  line-height : 1.25;
+}
 
 h5 {
-margin-bottom : 1.5em;
-font-size : 1em; /* 16 / 16 = 1 */ }
+  margin-bottom : 1.5em;
+  font-size : 1em;
+}
 
 h6 {
-font-size : 1em; /* 16 / 16 = 1 */ }
+  font-size : 1em;
+}
 
 h4,h5,h6 {
   color: #223035;
   text-shadow: none;
 }
-
 
 /* 3.TYPOGRAPHY */
 
@@ -169,73 +172,86 @@ ol,
 ul,
 dl,
 address {
-margin-bottom : 1.5em;
-font-size : 1em; /* 16 / 16 = 1 */ }
+  margin-bottom : 1.5em;
+  font-size : 1em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
 
 ul,
 ol {
-margin : 0 0 1.5em -24px;
-padding-left : 24px; }
+  margin : 0 0 1.5em -24px;
+  padding-left : 24px;
+}
 
 ul {
-list-style-type : disc; }
+  list-style-type : none;
+}
 
 ol {
-list-style-type : decimal; }
+  list-style-type : decimal;
+}
 
 li ul,
 li ol {
-margin : 0;
-font-size : 1em; /* 16 / 16 = 1 */ }
+  margin : 0;
+  font-size : 1em;
+}
 
 dl,
 dd {
-margin-bottom : 1.5em; }
+  margin-bottom : 1.5em; }
 
 dt {
-font-weight : 400; }
+  font-weight : 400;
+}
 
 blockquote  {
-margin : 0 0 1.5em -24px;
-padding-left : 24px;
-border-left : 1px solid rgb(200,200,200);
-font-style : italic; }
+  margin : 0 0 1.5em -24px;
+  padding-left : 24px;
+  border-left : 1px solid rgb(200,200,200);
+  font-style : italic;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-content : '';
-content : none; }
+  content : '';
+  content : none;
+}
 
 b,
 strong	{
-font-weight : 700; }
+  font-weight : 700;
+}
 
 i,
 em {
-font-style : italic; }
+  font-style : italic;
+}
 
 sup,
 sub {
-position : relative;
-font-size : 75%;
-line-height : 0; }
+  position : relative;
+  font-size : 75%;
+  line-height : 0; }
 
 sup {
-top : -.5em; }
+  top : -.5em; }
 
 sub {
-bottom : -.25em; }
+  bottom : -.25em; }
 
 address {
-font-style : normal; }
+  font-style : normal; }
 
 pre {
-margin-bottom : 1.5em;
-white-space : pre;
-white-space : pre-wrap;
-word-wrap : break-word; }
+  margin-bottom : 1.5em;
+  white-space : pre;
+  white-space : pre-wrap;
+  word-wrap : break-word; }
 
 pre,
 code {
@@ -243,7 +259,7 @@ font : .875em 'andale mono', 'lucida console', monospace;
 line-height : 1.5; }
 
 small {
-font-size : 1em; /* 16 / 16 = 1 */ }
+font-size : 1em;}
 
 /* 4.LINKS */
 
@@ -268,11 +284,11 @@ a.smallbutton {
   padding: 10px 30px 8px 30px;
   display: tablecell;
   background: #CE1E47;
-  background: -moz-linear-gradient(top, rgb(226,50,91), rgb(206,30,71) 50%, rgb(186,10,51));
+  background: -moz-linear-gradient(top, rgb(226,50,91), rgb(186,10,51));
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(226,50,91)), to(rgb(186,10,51)));
   background: -webkit-linear-gradient(top, rgb(226,50,91) rgb(186,10,51));
-  background: -o-linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
-  background: linear-gradient(top, rgb(226,50,91),  rgb(186,10,51));
+  background: -o-linear-gradient(top, rgb(226,50,91), rgb(186,10,51));
+  background: linear-gradient(top, rgb(226,50,91), rgb(186,10,51));
   border-radius: 5px;
   color: #fff;
   font-size: 1.25em;
@@ -360,7 +376,9 @@ h1 span {
   width: 90%;
   margin: 0 auto 10px auto;
   text-align: center;
-
+  font-size: 1em;
+  font-weight: normal;
+  text-shadow: none;
 }
 
 .triangle-border {
@@ -373,27 +391,92 @@ h1 span {
   box-shadow: 0 0 5px #666;
 }
 
-.triangle-border.left {
+.triangle-border .left {
   margin-left: 0;
 }
 
 /* 9.NAVIGATION */
 
+nav {
+  width: 100%;
+  position: relative;
+}
+
 nav ul {
-  display: block;
+  display: inline;
   list-style: none;
+  vertical-align: middle;
 }
 
 nav li {
   float: left;
-  margin-right: 10px;
+  padding: 0 20% 0 40%;
+  margin-bottom: 5px;
+  background: url(../img/bg-nav.gif) repeat-x left center;
+}
+
+nav li a:before {
+  content: "\2022   ";
+}
+
+nav li a:after {
+  content: "   \2022";
+}
+
+nav li a:link,
+nav li a:visited {
+  display: block;
+  padding: 5px 10px;
+  background: #f9f9f9;
+  border-left: 1px solid #1ea0ce;
+  border-right: 1px solid #1ea0ce;
+  color: #1ea0ce;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+nav li a:hover {
+  background: rgb(30,160,206);
+  color: #fff;
+  box-shadow: 0px 0px 5px #555;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+nav li a.active {
+  background: rgb(30,160,206);
+  color: #fff;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+.rejectjs nav {
+  position: relative;
+  top: -245px;
+  margin-bottom: -245px;
+  z-index: 0;
+}
+
+.rejectjs nav li {
+  float: none;
+  }
+
+.rejectjs header {
+
+}
+
+#nextmeetup {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /* 10.CONTENT */
 
+.content {
+}
+
 .speaker {
   padding: 10px;
-  background: #f3f3f3;
   border-top: 1px solid white;
   border-bottom: 1px solid #f3f3f3;
 }
@@ -402,6 +485,7 @@ nav li {
   border: 10px solid #e1e1e1;
   padding-bottom: 10px;
   background: #e9e9e9;
+  position: relative;
 }
 
 .sponsor-link {
@@ -417,7 +501,7 @@ nav li {
   color: transparent;
 }
 
-.promo {
+.promo, .attendees {
   padding-bottom: 20px;
 }
 
@@ -498,15 +582,19 @@ nav li {
 
 /* --- END Teaser Styles --- */
 
-.teaser a.button {
-  position: absolute;
-  width: 35%;
-  top: 70%;
-  left: 45%;
-  font-size: 0.8em;
-  padding: 2px 5px;
-  text-shadow: none;
+/* --- Reject.JS Final Announcement --- */
+
+.reject-logo {
+  height: 245px;
+  width: 247px;
+  margin: 0 20px;
+  background: url(../img/logo-rejectjs.png) no-repeat top left;
+  display: block;
+  position: relative;
+  z-index: 10;
 }
+
+/* --- ENDFinal Announcement --- */
 
 .col-third {
   width: 100%;
@@ -561,6 +649,30 @@ object,img {
   background: #f3f3f3;
   border-left: 1px solid #1ea0ce;
   border-right: 1px solid #1ea0ce;
+}
+
+.attendees ul {
+  padding: 0 20px 20px 20px;
+  list-style: none;
+}
+
+.attendees ul li {
+  float: left;
+  margin-left: 5px;
+}
+
+.attendees ul a {
+  display: inline;
+  background: none;
+}
+
+.attendees ul a img {
+  width: 30px;
+  height: 30px;
+}
+
+.attendees a.join{
+  font-weight: 700;
 }
 
 /* 11.MAIN */
@@ -695,23 +807,3 @@ width : auto; }
 visibility : hidden; }
 
 /* 16.TEMPLATE SPECIFICS */
-
-/* 17.MODERNIZR */
-
-/*
-Sources:
-http://meyerweb.com/eric/tools/css/reset
-http://people.opera.com/patrickl/experiments/keyboard/test
-http://gist.github.com/413930
-http://pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap
-http://sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars
-http://tjkdesign.com/ez-css/css/base.css
-http://viget.com/inspire/styling-the-button-element-in-internet-explorer
-http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing
-http://html5doctor.com/html-5-reset-stylesheet/
-http://praegnanz.de/weblog/htmlcssjs-kickstart/
-http://camendesign.com/design/
-http://yui.yahooapis.com/2.8.1/build/base/base.css
-http://webaim.org/techniques/css/invisiblecontent/
-http://drupal.org/node/897638
-*/
