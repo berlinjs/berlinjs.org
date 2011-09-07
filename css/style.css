@@ -450,9 +450,20 @@ nav li a.active {
   text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
 }
 
+.rejectjs nav {
+  position: relative;
+  top: -245px;
+  margin-bottom: -245px;
+  z-index: 0;
+}
+
 .rejectjs nav li {
   float: none;
   }
+
+.rejectjs header {
+  
+}
 
 #nextmeetup {
   color: inherit;
@@ -597,9 +608,11 @@ nav li a.active {
 .reject-logo {
   height: 245px;
   width: 247px;
-  margin: 0 10px;
+  margin: 0 20px;
   background: url(../img/logo-rejectjs.png) no-repeat top left;
-  position: absolute;
+  display: block;
+  position: relative;
+  z-index: 10;
 }
 
 /* --- ENDFinal Announcement --- */
