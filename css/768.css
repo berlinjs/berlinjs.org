@@ -205,6 +205,9 @@ a.button:active {
 
 .col-third {
   width: 33%;
+.speaker {
+  width: 31%;
+  margin: 0 1% 2% 1%;
   float: left;
   padding: 10px;
   margin-bottom: 20px;
@@ -213,11 +216,25 @@ a.button:active {
 
 .promo p {
   width: 75%;
+.speaker:last-child {
+  margin-right: 0;
 }
 
-/* 11.MAIN */
+.schedule ul {
+  float: left;
+  list-style: none;
+  display: table;
+}
 
+.schedule ul li {
+  display: table-cell;
+  padding: 0 10px 0 0;
+}
 
+.schedule ul ul {
+  float: none;
+  width: 100%;
+}
 
 /* 12.COMPLIMENTARY */
 

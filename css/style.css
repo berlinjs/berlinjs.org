@@ -182,7 +182,6 @@ address {
 ul,
 ol {
   margin : 0 0 1.5em -24px;
-  padding-left : 24px;
 }
 
 ul {
@@ -191,6 +190,7 @@ ul {
 
 ol {
   list-style-type : decimal;
+  padding-left : 24px; 
 }
 
 li ul,
@@ -223,7 +223,7 @@ q:after {
 }
 
 b,
-strong	{
+strong {
   font-weight : 700;
 }
 
@@ -461,10 +461,6 @@ nav li a.active {
   float: none;
   }
 
-.rejectjs header {
-
-}
-
 #nextmeetup {
   color: inherit;
   text-decoration: inherit;
@@ -594,7 +590,11 @@ nav li a.active {
   z-index: 10;
 }
 
-/* --- ENDFinal Announcement --- */
+.rejectjs h1 img {
+  margin-top: 20px;
+}
+
+/* --- END Final Announcement --- */
 
 .col-third {
   width: 100%;
@@ -605,6 +605,10 @@ nav li a.active {
 .carved-borders {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #e1e1e1;
+}
+
+.carved-borders:first-child {
+  border-top: none;
 }
 
 .carved-borders:last-child {

@@ -116,40 +116,6 @@ _____________________________________________________
 
 /* --- END Teaser Styles --- */
 
-.speaker {
-  width: 23%;
-  margin-right: 2.666667%;
-  float: left;
-}
-
-.speaker:last-child {
-  margin-right: 0;
-}
-
-.reject-headline {
-  margin-left: 10%;
-  margin-bottom: 0;
-  font-size: 4.2em;
-  text-shadow: 3px 3px 0 #223035;
-}
-
-.reject-subhead {
-  margin-left: 10%;
-  font-size: 1.5em;
-}
-
-.call-speakers {
-  margin-bottom: 0;
-  font-size: 3.5em;
-}
-
-.speaker-invite {
-  font-weight: normal;
-  font-size: 1.5em;
-  letter-spacing: -0.01em;
-
-}
-
 /* 11.MAIN */
 
 .promo p {
