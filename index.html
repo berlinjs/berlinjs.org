@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>BerlinJS &ndash; Berlin's finest Javascript Usergroup'</title>
     <meta name="description" content="Berlin.JS is a usergroup focused on Javascript and related
-topics. We meet regularly on the 3rd Thursday each month at 7p.m. atCo.Up Offices,
-Adalbertstraße 7-8 in Berlin-Kreuzberg.">
+     topics. We meet regularly on the 3rd Thursday each month at 7p.m. atCo.Up Offices,
+     Adalbertstraße 7-8 in Berlin-Kreuzberg.">
     <meta name="keywords" content="Javascript, Usergroup, Berlin, Programming, JS">
     <meta name="author" content="Berlin.JS">
     <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
@@ -26,7 +26,7 @@ Adalbertstraße 7-8 in Berlin-Kreuzberg.">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <script>
-      var _gaq = [['_setAccount','UA-25036346-1'],['_trackPageview']];
+      var _gaq = [['_setAccount','UA-25036346-1'],['_trackPageview'],['_trackPageLoadTime']];
       (function(d, t) {
         var g = d.createElement(t),
             s = d.getElementsByTagName(t)[0];
@@ -39,34 +39,24 @@ Adalbertstraße 7-8 in Berlin-Kreuzberg.">
     <header role="banner" class="clearfix">
       <hgroup class="clearfix">
       <h1 class="logo" title="BERLIN.JS"></h1>
-        <p class="ug-info triangle-border left">
-          Berlin.JS is a usergroup focused on Javascript and related topics. We meet regularly on
-          the 3rd Thursday each month at 7p.m. at
-          <a href="http://co-up.de" title="Co.Up Coworking">Co.Up Offices</a>,
-          Adalbertstraße 7-8 in Berlin-Kreuzberg.
-        </p>
+      <h3 class="ug-info triangle-border left">
+        Berlin.JS is a usergroup focused on Javascript and related topics. We meet regularly on
+        the 3rd Thursday each month at 7p.m. at
+        <a href="http://co-up.de" title="Co.Up Coworking">Co.Up Offices</a>,
+        Adalbertstraße 7-8 in Berlin-Kreuzberg.
+      </h3>
       </hgroup>
     </header>
-    <section role="main" class="content clearfix">
-      <!-- REJECT.JS PROMO -->
+    <div role="main" class="content clearfix">
       <article class="rejectjs clearfix">
-        <section class="teaser">
-          <img src="img/reject-teaser.jpg?v=2" alt="Reject.js teaser"/>
-          <div class="teaser-text">
-            <hgroup>
-              <h1>REJECT.JS</h1>
-              <h2>A JavaScript Conference</h2>
-            </hgroup>
-            <aside>
-              <h3>Get. Ticket. Now.</h3>
-              <h4>
-                Call for papers is over. Now we've opened the ticket shop. There are only a few tickets left so be sure to get yours quickly.
-              </h4>
-            </aside>
-          </div>
-          <a class="button" href="http://de.amiando.com/rejectjs2011.html" title="Get your Reject.JS ticket">Grab your ticket!</a>
+        <section class="carved-borders clearfix">
+        <hgroup class="center">
+          <h1>
+            <img src="img/logo-rejectjs.jpg?v=1" alt="REJECT.JS" />
+          </h1>
+          <h2>The tickets were sold in a rush. Now things are getting serious.</h2>
+        </hgroup>
         </section>
-
         <!-- BASIC INFO -->
         <section class="clearfix carved-borders">
         <div class="col-third">
@@ -97,6 +87,19 @@ Adalbertstraße 7-8 in Berlin-Kreuzberg.">
             </p>
           </div>
         </section>
+        <!-- ATTENDEES -->
+        <section class="attendees carved-borders clearfix">
+          <hgroup class="center">
+            <h3>These are the lucky ones who will attend Reject.JS</h3>
+            <h5>
+              Got a ticket? Tell the world that you will attend Reject.JS by logging in <a href="http://lanyrd.com/2011/rejectjs/" title="Attend RejectJS on Lanyrd">on Lanyrd</a>.
+            </h5>
+          </hgroup>
+          <ul class="center clearfix"></ul>
+          <div class="center clearfix">
+            <a class="button" href="http://lanyrd.com/2011/rejectjs/" title="Attend RejectJS on Lanyrd">Attend Reject.JS on Lanyrd</a>
+          </div>
+        </section>
         <!-- SPONSOR ADS -->
         <section class="carved-borders clearfix">
           <h3 class="center">Reject.JS is powered by these fine sponsors:</h3>
@@ -117,32 +120,8 @@ Adalbertstraße 7-8 in Berlin-Kreuzberg.">
             </p>
           </div>
         </section>
-        <!-- CALL FOR SPONSORS -->
-        <section class="promo carved-borders clearfix">
-          <h3 class="center">Support that marvellous event!</h3>
-          <a class="sponsor-link center" href="mailto:info@berlinjs.org" title="Be a sponsor">
-            BE A SPONSOR</a>
-           <p class="center">
-             Become a Sponsor for the magnificent Reject.JS conference and help to make that great
-             thing even more awesome!
-            </p>
-        </section>
-        <!-- ATTENDEES -->
-        <section class="attendees carved-borders clearfix">
-          <hgroup class="center">
-            <h3>Meet these fine people at our conference</h3>
-            <h5>
-              Got a ticket? Tell the world that you will attend Reject.JS by logging in <a href="http://lanyrd.com/2011/rejectjs/" title="Attend RejectJS on Lanyrd">on Lanyrd</a>.
-            </h5>
-          </hgroup>
-          <ul class="center clearfix" id="lanyrd-attendees"></ul>
-          <div class="center clearfix">
-            <a class="button" href="http://lanyrd.com/2011/rejectjs/" title="Attend RejectJS on Lanyrd">Attend Reject.JS on Lanyrd</a>
-          </div>
-        </section>
       </article>
-    </section>
-
+    </div>
     <footer class="clearfix">
       <div class="col-third">
         <h5>Get in touch</h5>
@@ -162,8 +141,8 @@ Adalbertstraße 7-8 in Berlin-Kreuzberg.">
         <h5>The team</h5>
         <p>
           Berlin.JS is organized by <a href="http://www.twitter.com/rmehner" title="Follow Robin on
-Twitter">Robin Mehner</a> &amp; <a href="http://www.twitter.com/janl" title="Follow Jan on
-Twitter">Jan Lehnardt</a>. Design by <a href="http://www.twitter.com/m_besser"
+          Twitter">Robin Mehner</a> &amp; <a href="http://www.twitter.com/janl" title="Follow Jan on
+          Twitter">Jan Lehnardt</a>. Design by <a href="http://www.twitter.com/m_besser"
           title="Follow Matti on Twitter">Matti Besser</a>.
         </p>
       </div>
@@ -174,6 +153,5 @@ Twitter">Jan Lehnardt</a>. Design by <a href="http://www.twitter.com/m_besser"
         </p>
       </div>
     </footer>
-    <script src="js/lanyrd.js" defer></script>
   </body>
 </html>
