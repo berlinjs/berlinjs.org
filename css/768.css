@@ -129,68 +129,84 @@ a.button:active {
 }
 
 /* 9.NAVIGATION */
+
+nav {
+  margin: 0 0 20px 0;
+}
+
+nav ul {
+  width: 100%;
+  display: block;
+  list-style: none;
+  background: url(../img/bg-nav.gif) repeat-x left center;
+}
+
+nav li {
+  float: left;
+  display: inline;
+  margin-bottom: 5px;
+  padding: 0;
+  background: none;
+}
+
+nav li a:link,
+nav li a:visited {
+  display: inline;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background: #f9f9f9;
+  border-left: 1px solid #1ea0ce;
+  border-right: 1px solid #1ea0ce;
+  color: #1ea0ce;
+  font-size: 1.15em;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+nav li a:hover {
+  background: rgb(30,160,206);
+  color: #fff;
+  box-shadow: 0px 0px 5px #555;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+nav li a.active {
+  background: rgb(30,160,206);
+  color: #fff;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
 /* 10.CONTENT */
 
-/* --- RejectJS Teaser Styles --- */
+/* --- Reject.JS Final Header --- */
 
-.teaser {
-  position: relative;
-  margin-bottom: -5px;
+.rejectjs header hgroup {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: left;
 }
 
-.teaser-text {
-  width: 100%;
-  position: absolute;
-  top: 0;
+.rejectjs header h2 {
+  margin-top: 35px;
 }
 
-.teaser-text h1,
-.teaser-text h2,
-.teaser-text h3,
-.teaser-text h4 {
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
+.reject-logo {
+  height: 245px;
+  width: 247px;
+  margin: 0 20px;
+  background: url(../img/logo-rejectjs.png) no-repeat top left;
+  display: block;
+  float: left;
 }
 
-.teaser-text h1 {
-  margin-bottom: 0;
-  margin-top: 22%;
-  font-size: 2.8em;
-  text-shadow: 2px 2px 0 #223035;
+.rejectjs h1 img {
+  margin: 20px auto 0;
 }
 
-.teaser-text h2 {
-  font-size: 1.1em;
-  font-weight: normal;
-}
-
-.teaser-text h3 {
-  margin-top: 15%;
-  margin-bottom: 0;
-  font-size: 2.3em;
-}
-
-.teaser-text h4 {
-  font-size: 0.9em;
-  font-weight: normal;
-}
-
-.teaser-text hgroup {
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.teaser-text aside {
-  width: 55%;
-  position: absolute;
-  top: 0;
-  left: 35%;
-}
-
-/* --- END Teaser Styles --- */
+/* --- END Final Header --- */
 
 .teaser a.button {
   position: absolute;
@@ -205,6 +221,8 @@ a.button:active {
 
 .col-third {
   width: 33%;
+}
+
 .speaker {
   width: 31%;
   margin: 0 1% 2% 1%;
@@ -216,9 +234,15 @@ a.button:active {
 
 .promo p {
   width: 75%;
+}
+
 .speaker:last-child {
   margin-right: 0;
 }
+
+/* --- Speakers --- */
+
+/* --- END Speakers --- */
 
 .schedule ul {
   float: left;

@@ -54,73 +54,74 @@ _____________________________________________________
 
 /* 9.NAVIGATION */
 /* 10.CONTENT */
-
-/* --- RejectJS Teaser Styles --- */
-
-.teaser {
-  position: relative;
-  margin-bottom: -5px;
-}
-
-.teaser-text {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
-.teaser-text h1,
-.teaser-text h2,
-.teaser-text h3,
-.teaser-text h4 {
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
-}
-
-.teaser-text h1 {
-  margin-bottom: 0;
-  margin-top: 22%;
-  font-size: 3.65em;
-  text-shadow: 2px 2px 0 #223035;
-}
-
-.teaser-text h2 {
-  font-size: 1.4em;
-  font-weight: normal;
-}
-
-.teaser-text h3 {
-  margin-top: 15%;
-  margin-bottom: 0;
-  font-size: 2.95em;
-}
-
-.teaser-text h4 {
-  font-size: 1.2em;
-  font-weight: normal;
-}
-
-.teaser-text hgroup {
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.teaser-text aside {
-  width: 55%;
-  position: absolute;
-  top: 0;
-  left: 35%;
-}
-
-/* --- END Teaser Styles --- */
-
 /* 11.MAIN */
 
 .promo p {
   width: 65%;
 }
+
+/* --- Speakers --- */
+
+.speaker-list {
+  width: 50%;
+  float: left;
+  display:block;
+  text-align: left;
+}
+
+.speaker-list p {
+  font-size: 14px;
+}
+
+.speaker-list li {
+  margin: 15px 0 0 15px;
+  padding: 10px;
+  background: #fff;
+}
+
+.right li {
+  margin-right: 15px;
+}
+
+.speaker-info {
+  width: 30%;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.speaker-list img {
+  width: 100%;
+  float: none;
+  margin: 0 10px 10px 0 ;
+}
+
+.talk {
+  width: 65%;
+  float: left;
+}
+
+.twitter,
+.web,
+.git {
+  padding: 3px 8px;
+  margin-bottom: 5px;
+  background: #e9e9e9;
+  border-radius: 10px;
+  display: inline-block;
+  clear: left;
+  font-size: 12px;
+}
+
+.twitter:hover,
+.web:hover,
+.git:hover {
+  box-shadow: 1px 1px 3px #666;
+  text-decoration: none;
+}
+
+/* --- END Speakers --- */
+
 
 /* 12.COMPLIMENTARY */
 

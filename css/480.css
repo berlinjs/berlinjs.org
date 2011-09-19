@@ -53,70 +53,71 @@ body {
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 
-/* --- RejectJS Teaser Styles --- */
+/* --- Speakers --- */
 
-.teaser {
-  position: relative;
-  margin-bottom: -5px;
-}
-
-.teaser-text {
+.speaker-list {
   width: 100%;
-  position: absolute;
-  top: 0;
+  display:block;
+  text-align: left;
+  float: none;
 }
 
-.teaser-text h1,
-.teaser-text h2,
-.teaser-text h3,
-.teaser-text h4 {
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
+.speaker-list p {
+  font-size: 14px;
 }
 
-.teaser-text h1 {
-  margin-bottom: 0;
-  margin-top: 22%;
-  font-size: 1.75em;
-  text-shadow: 2px 2px 0 #223035;
+.speaker-list li {
+  margin: 15px 15px 0 15px;
+  padding: 10px;
+  background: #fff;
 }
 
-.teaser-text h2 {
-  font-size: 0.7em;
-  font-weight: normal;
+.right li {
+  margin-right: 15px;
 }
 
-.teaser-text h3 {
-  margin-top: 15%;
-  margin-bottom: 0;
-  font-size: 1.44em;
+.speaker-info {
+  width: 30%;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  float: left;
 }
 
-.teaser-text h4 {
-  font-size: 0.6em;
-  font-weight: normal;
+.speaker-list img {
+  width: 100%;
+  float: left;
+  margin: 0 10px 10px 0 ;
 }
 
-.teaser-text hgroup {
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
+.talk {
+  width: 60%;
+  float: left;
 }
 
-.teaser-text aside {
-  width: 55%;
-  position: absolute;
-  top: 0;
-  left: 35%;
+.twitter,
+.web,
+.git {
+  padding: 3px 8px;
+  margin: 0 5px 5px 0;
+  background: #e9e9e9;
+  border-radius: 10px;
+  display: inline;
+  font-size: 12px;
+  float: left;
 }
 
-/* --- END Teaser Styles --- */
+.twitter:hover,
+.web:hover,
+.git:hover {
+  box-shadow: 1px 1px 3px #666;
+  text-decoration: none;
+}
+
+/* --- END Speakers --- */
 
 .speaker {
-  width: 100%;
-  margin: 0 1% 2% 1%;
+  width: 20%;
+  padding: 0 1% 2% 1%;
   float: left;
   border: none;
 }

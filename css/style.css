@@ -259,7 +259,7 @@ font : .875em 'andale mono', 'lucida console', monospace;
 line-height : 1.5; }
 
 small {
-font-size : 1em;}
+font-size : 0.85em;}
 
 /* 4.LINKS */
 
@@ -313,6 +313,10 @@ a.smallbutton {
   padding: 5px 10px;
   font-size: 1em;
 }
+
+/*a img {
+  margin: 0 auto;
+}*/
 
 .center {
   display: table;
@@ -398,20 +402,19 @@ h1 span {
 /* 9.NAVIGATION */
 
 nav {
-  width: 100%;
-  position: relative;
+  margin: 0;
 }
 
 nav ul {
-  display: inline;
+  width: 100%;
+  display: block;
   list-style: none;
-  vertical-align: middle;
+  background: none
 }
 
 nav li {
-  float: left;
-  padding: 0 20% 0 40%;
   margin-bottom: 5px;
+  padding: 0 10%;
   background: url(../img/bg-nav.gif) repeat-x left center;
 }
 
@@ -431,6 +434,7 @@ nav li a:visited {
   border-left: 1px solid #1ea0ce;
   border-right: 1px solid #1ea0ce;
   color: #1ea0ce;
+  font-size: 1.15em;
   font-weight: 700;
   text-decoration: none;
   text-align: center;
@@ -450,13 +454,6 @@ nav li a.active {
   text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
 }
 
-.rejectjs nav {
-  position: relative;
-  top: -245px;
-  margin-bottom: -245px;
-  z-index: 0;
-}
-
 .rejectjs nav li {
   float: none;
   }
@@ -471,11 +468,117 @@ nav li a.active {
 .content {
 }
 
-.speaker {
-  padding: 10px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid #f3f3f3;
+/* --- Reject.JS Final Header --- */
+
+.rejectjs header hgroup {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 }
+
+.rejectjs header h2 {
+  margin-top: 15px;
+}
+
+.reject-logo {
+  height: 245px;
+  width: 247px;
+  margin: 0 auto;
+  background: url(../img/logo-rejectjs.png) no-repeat top left;
+  display: block;
+  float: none;
+}
+
+.rejectjs h1 img {
+  margin-top: 20px;
+}
+
+/* --- END Final Header --- */
+
+/* --- Speakers --- */
+
+.speaker-list {
+  width: 100%;
+  display:block;
+  text-align: left;
+  float: none;
+}
+
+.speaker-list p {
+  font-size: 14px;
+}
+
+.speaker-list li {
+  margin: 15px 15px 0 15px;
+  padding: 10px;
+  background: #fff;
+}
+
+.right li {
+  margin-right: 15px;
+}
+
+.speaker-info {
+  width: 100%;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.speaker-info h5 {
+  color: #CE1E47;
+}
+
+.speaker-list img {
+  width: 30%;
+  float: left;
+  margin: 0 10px 10px 0 ;
+}
+
+.talk {
+  width: 100%;
+  float: left;
+}
+
+.twitter,
+.web,
+.git {
+  padding: 1px 3px;
+  margin: 2px 2px 0 0;
+  background: #e9e9e9;
+  border-radius: 5px;
+  display: inline;
+  font-size: 11px;
+  float: left;
+}
+
+.twitter:hover,
+.web:hover,
+.git:hover {
+  box-shadow: 1px 1px 3px #666;
+  text-decoration: none;
+}
+
+/* --- END Speakers --- */
+
+/* --- Schedule --- */
+
+.schedule table {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.schedule td {
+  border-bottom: 1px solid #1ea0ce;
+  padding-left: 20px;
+}
+
+.schedule tr:last-child td {
+  border-bottom: none;
+}
+
+/* --- END Schedule --- */
 
 .rejectjs {
   border: 10px solid #e1e1e1;
@@ -505,96 +608,6 @@ nav li a.active {
   width: 90%;
   margin: 0 auto 20px auto;
 }
-
-/* --- RejectJS Teaser Styles --- */
-
-.teaser {
-  position: relative;
-  margin-bottom: -5px;
-  overflow: hidden;
-}
-
-.teaser-text {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
-.teaser-text h1,
-.teaser-text h2,
-.teaser-text h3,
-.teaser-text h4 {
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
-}
-
-.teaser-text h1 {
-  margin-bottom: 0;
-  margin-top: 22%;
-  font-size: 1.5em;
-  text-shadow: 2px 2px 0 #223035;
-}
-
-.teaser-text h2 {
-  font-size: 0.5em;
-  font-weight: normal;
-}
-
-.teaser-text h3 {
-  margin-top: 15%;
-  margin-bottom: 0;
-  font-size: 1.2em;
-}
-
-.teaser-text h4 {
-  font-size: 0.5em;
-  font-weight: normal;
-}
-
-.teaser-text hgroup {
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.teaser-text aside {
-  width: 55%;
-  position: absolute;
-  top: 0;
-  left: 35%;
-}
-
-.teaser a.button {
-  position: absolute;
-  width: 35%;
-  top: 70%;
-  left: 45%;
-  font-size: 0.8em;
-  padding: 2px 5px;
-  text-shadow: none;
-}
-
-/* --- END Teaser Styles --- */
-
-/* --- Reject.JS Final Announcement --- */
-
-.reject-logo {
-  height: 245px;
-  width: 247px;
-  margin: 0 20px;
-  background: url(../img/logo-rejectjs.png) no-repeat top left;
-  display: block;
-  position: relative;
-  z-index: 10;
-}
-
-.rejectjs h1 img {
-  margin-top: 20px;
-}
-
-/* --- END Final Announcement --- */
 
 .col-third {
   width: 100%;
@@ -703,17 +716,20 @@ footer ul {
 
 /* 14.GLOBAL OBJECTS */
 
-.clearfix {
+.clearfix{
 zoom : 1; }
 
 .clearfix:before,
-.clearfix:after {
+.clearfix:after,
+.speaker-list li:before,
+.speaker-list li:after  {
 content : "\0020";
 display : block;
 height : 0;
 overflow : hidden; }
 
-.clearfix:after {
+.clearfix:after,
+.speaker-list li:after {
 clear : both; }
 
 /* 15.VENDOR-SPECIFIC */

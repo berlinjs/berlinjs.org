@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>BerlinJS &ndash; Berlin's finest Javascript Usergroup'</title>
+    <title>BerlinJS &ndash; Berlin's finest Javascript Usergroup</title>
     <meta name="description" content="Berlin.JS is a usergroup focused on Javascript and related
      topics. We meet regularly on the 3rd Thursday each month at 7p.m. atCo.Up Offices,
      Adalbertstraße 7-8 in Berlin-Kreuzberg.">
@@ -24,16 +24,6 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <script>
-      var _gaq = [['_setAccount','UA-25036346-1'],['_trackPageview']];
-      (function(d, t) {
-        var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-        g.async = g.src = '//www.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g, s);
-      }(document, 'script'));
-    </script>
   </head>
   <body>
     <header role="banner" class="clearfix">
@@ -49,48 +39,380 @@
     </header>
     <div role="main" class="content clearfix">
       <article class="rejectjs clearfix">
-        <section class="carved-borders clearfix">
-        <hgroup class="center">
-          <h1>
-            <img src="img/logo-rejectjs.jpg?v=1" width="227" height="224" alt="REJECT.JS" />
-          </h1>
-          <h2>The tickets were sold in a rush. Now things are getting serious.</h2>
+        <header class="clearfix carved-borders">
+        <hgroup class="clearfix">
+          <h1 class="reject-logo" id="top"></h1>
+          <h2>Reject.JS on September 29th</h2>
+          <h3>Javascript awesomeness from 10 to 6.<br/>Plenty of beers afterwards.</h3>
         </hgroup>
-        </section>
-        <!-- BASIC INFO -->
+        <nav>
+          <ul class="center">
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#attendees">Attendees</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+          </ul>
+        </nav>
+        </header>
         <section class="clearfix carved-borders">
         <div class="col-third">
-          <h2>What?</h2>
+          <h2>What &amp; Who?</h2>
           <p>
             <strong><a href="http://jsconf.eu/" title="JSConf EU">JSConf EU</a></strong> is awesome and we all wished
              we could speak and tell the world what awesome stuff we are working on. Alas, they
              could only pick so many speakers and many of us don't get to speak. <br/>
              <strong>Reject.js is here for you!</strong>
           </p>
+          <p>
+            Reject.js is <strong>organised by BERLIN.JS</strong>, Berlin's finest JavaScript User
+            Group as a community event. We can't pay for any speakers or travel, but we can show
+            you a good JavaScript time! 
+          </p>
         </div>
-          <div class="col-third">
-            <h2>When?</h2>
-            <p>
-              Reject.js will be held on <strong>Thursday, September 29th, 2011</strong>.
-              We'll publish more details when we have them on our <strong>
-              <a href="http://twitter.com/berlinjs" title="Berlin.JS on Twitter">Twitter
-              account @berlinjs</a></strong>. If you have any questions, Twitter is the
-              best way to get in touch with us as well.
-            </p>
+        <div class="col-third">
+          <h2>Where &amp; When?</h2>
+          <p>
+            Reject.js will be held on <strong>Thursday, September 29th, 2011</strong> in the GLS-Sprachenschule, 
+            Kastanienallee 82 in Berlin-Mitte.
+          </p>
+          <p>
+            Be sure to follow our <strong>
+            <a href="http://twitter.com/berlinjs" title="Berlin.JS on Twitter">Twitter
+            account @berlinjs</a></strong>. We'll publish news and details there.
+          </p>
+        </div>
+        <div class="col-third">
+          <h2>The Location</h2>
+          <iframe width="321" height="217" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.de/maps/ms?msa=0&amp;msid=207696417173809255317.0004ad13c164e6d10ac87&amp;ie=UTF8&amp;t=m&amp;vpsrc=6&amp;ll=52.538857,13.4095&amp;spn=0.005664,0.013733&amp;z=15&amp;output=embed"></iframe>
+            <br />
+            <small>
+              <a href="http://maps.google.de/maps/ms?msa=0&amp;msid=207696417173809255317.0004ad13c164e6d10ac87&amp;ie=UTF8&amp;t=m&amp;vpsrc=6&amp;ll=52.538857,13.4095&amp;spn=0.005664,0.013733&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">
+                Detail view on Google Maps.
+              </a>
+            </small>
+        </div>
+        </section>
+        <!-- SPEAKER INFO -->
+        <section class="clearfix carved-borders">
+          <h2 class="center" id="speakers">Our speakers &amp; their talks</h2>
+          <div class="clearfix center">
+            <ul class="speaker-list">
+              <li>
+                <div class="speaker-info" id="felix">
+                  <img src="img/speaker/felix_geisendoerfer.jpg?v=1" alt="Felix Geisendörfer"/>
+                  <h5>Felix Geisendörfer</h5>
+                  <a class="twitter" href="http://twitter.com/felixge">@felixge</a>
+                  <a class="web" href="http://debuggable.com/">debuggable.com</a>
+                  <a class="git" href="https://github.com/felixge/" title="Felix Geisendörfer on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                <h3>Building an alarm clock with node.js</h3>
+                <p>
+                  No matter what I tried, for years it seemed that there was nothing to get me out of bed in the morning. 
+                  After having almost given up, one day I realized that node.js was the answer to all my troubles.
+                </p>
+                <p>
+                  This talk will show you how I used JavaScript to change my life by hooking up a few components with a small 
+                  node.js application that reliably kicks ass when it comes to getting me out of bed in the morning." 
+                </p>
+                </div>
+              </li>
+              <li>
+                <div class="speaker-info" id="paul">
+                  <img src="img/speaker/paul_campbell.jpg?v=1" alt="Paul Campbell"/>
+                  <h5>Paul Campbell</h5>
+                  <a class="twitter" href="http://twitter.com/paulca">@paulca</a>
+                  <a class="web" href="http://pabcas.com">pabcas.com</a>
+                  <a class="git" href="https://github.com/paulca/" title="Paul Campbell on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                  <h3>Why I built whenever and why it's cool</h3>
+                  <p>
+                    whenever.js is a teeny javascript library for wrapping your client side behavior in a loving 
+                    English-sentence based embrace.
+                  </p>
+                  <p>
+                    I will talk about why I built whenever, why it's cool, show some examples and show where I've used it in 
+                    practice.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="speaker-info" id="tiffany">
+                  <img src="img/speaker/tiffany_conroy.jpg?v=1" alt="Tiffany Conroy"/>
+                  <h5>Tiffany Conroy</h5>
+                  <a class="twitter" href="http://twitter.com/theophani">@theophani</a>
+                  <a class="web" href="http://tif.ca">tif.ca</a>
+                  <a class="git" href="https://github.com/theophani/" title="Tiffany Conroy on Github">Watch her code</a>
+                </div>
+                <div class="talk">
+                  <h3>Building a minimal form validation library using the HTML5 form validation API</h3>
+                  <p>
+                    Finally, we can add validation rules to our form elements, which provides in-browser validation on submit. 
+                    But what if we want to use Ajax? 
+                  </p>
+                  <p>
+                    HTML5 defines DOM interfaces with the components we need to validate the 
+                    form ourselves. It's easy and fun!
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="speaker-info" id="ian">
+                  <img src="img/speaker/ian_jorgensen.jpg?v=1" alt="Ian Jørgensen"/>
+                  <h5>Ian Jørgensen</h5>
+                  <a class="twitter" href="http://twitter.com/ianjorgensen">@ianjorgensen</a>
+                  <a class="web" href="http://ge.tt">ge.tt</a>
+                  <a class="git" href="https://github.com/pubsubio/" title="Ian Jørgensen on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                  <h3>Back to data with pubsub.io</h3>
+                  <p>
+                    I'll describe through examples pubsub.io and the applications for the query based live data, i'll go into 
+                    details of data security in an open publish subscribe system, and scaling techniques like hubs clusters and 
+                    dynamic query indexes.
+                  </p>
+                  <p>
+                    Pubsub.io is an attempt to change the way we publish and consume live data. Our take on pubsub is that the 
+                    usual channel paradigm is too tightly coupled; instead of forcing things into string-based channels, 
+                    pubsub.io lets you describe what you're looking for.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="speaker-info" id="irakli">
+                  <img src="img/speaker/irakli_gozalishivil.jpg?v=1" alt="Irakli Gozalishivil"/>
+                  <h5>Irakli Gozalishivil</h5>
+                  <a class="twitter" href="http://twitter.com/gozala">@gozala</a>
+                  <a class="web" href="http://jeditoolkit.com">jeditoolkit.com</a>
+                  <a class="git" href="https://github.com/Gozala/" title="Irakli Gozalishivil on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                <h3>Asynchronously recursive pure function <3 with lazy streams!</h3>
+                <p>
+                  Streamer library, which suggests opinionated stream definition / pattern and utilizes core library, that 
+                  makes asynchronously recursive, pure function <3 possible without spaghetti code ninjas!  
+                </p>
+                </div>
+              </li>
+              <li>
+                <div class="speaker-info" id="michiel">
+                  <img src="img/speaker/michiel_de_jong.jpg?v=1" alt="Michiel de Jong"/>
+                  <h5>Michiel de Jong</h5>
+                  <a class="twitter" href="http://twitter.com/unhosted">@unhosted</a>
+                  <a class="web" href="http://unhosted.org">unhosted.org</a>
+                  <a class="git" href="https://github.com/unhosted/" title="Unhosted on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                  <h3>Announcing the unhosted app store</h3>
+                  <p>
+                    The Unhosted project aims to free the web from monopolies. As such, we will be launching an app store, you 
+                    can submit your unhosted web apps, which you code entirely in client-side javascript, without the need for 
+                    you to run a server. 
+                  </p>
+                  <p>
+                    The store will be entirely non-profit, but try to channel money back to the app developer wherever this   
+                    doesn't clash with our ideals about free software and user empowerment. 
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <ul class="speaker-list right">
+              <li>
+                <div class="speaker-info" id="michael">
+                  <img src="img/speaker/michael_aufreiter.jpg?v=1" alt="Michael Aufreiter"/>
+                  <h5>Michael Aufreiter</h5>
+                  <a class="twitter" href="http://twitter.com/_mql">@_mql</a>
+                  <a class="web" href="http://substance.io">substance.io</a>
+                  <a class="git" href="https://github.com/michael/" title="Michael Aufreiter on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                  <h3>Data.js &ndash; Data Manipulation and Graph Persistence for Node.js and the Browser</h3>
+                  <p>
+                    Data.js tries to provide an API on top of graph data, that makes it easy to access and group data into 
+                    objects suitable for both server and client side application tasks. 
+                  </p>
+                  <p>
+                    By allowing to use the same API to 
+                    construct your domain objects, both on the client and on the server side, Data.js allows for code (and 
+                    domain knowledge) reuse. Data.js features a query interface, data-transformations (like clustering), 
+                    validations, realtime updates as well as a CouchDB backend for persistence.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="speaker-info" id="oleg">
+                  <img src="img/speaker/oleg_podsechin.jpg?v=1" alt="Oleg Podsechin"/>
+                  <h5>Oleg Podsechin</h5>
+                  <a class="twitter" href="http://twitter.com/olegpodsechin">@olegpodsechin</a>
+                  <a class="web" href="http://dailyjs.com">dailyjs.com</a>
+                  <a class="git" href="https://github.com/olegp/" title="Oleg Podsechin on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                  <h3>Common Node &ndash; A CommonJS compatibility layer for Node.js</h3>
+                  <p>
+                    Node.js has captured the attention of early adopters by clearly differentiating itself as being   
+                    asynchronous from the ground up. Now that server side JavaScript is at the cutting edge of the 
+                    asynchronous, real time web, it is in a much better position to establish itself as the go to language for 
+                    synchronous CRUD webapps and gain a stronger foothold on the server.
+                  </p>
+                  <p>
+                    The talk will cover the current state of server side JavaScript beyond Node by mapping out the key 
+                    standards &amp; technologies and their respective positions in the stack. It will introduce 
+                    <a href="http://olegp.github.com/common-node/" title="Common Node">Common Node</a>, a synchronous CommonJS 
+                    compatibility layer using node-fibers which bridges the gap between the different platforms. We'll look 
+                    intoCommon Node's internals, compare its performance to that of other implementations such as RingoJS and 
+                    go through some ideal use cases.
+                  </p>
+                  <p>
+                    A case will be made for a cross platform, synchronous, Rails like framework. In conclusion, we will try to  
+                    identify new areas where server side JavaScript could really shine, including API mashups, collaborative 
+                    development and crowd sourced functionality.
+                  </p>
+                </div>
+              </li>
+              
+              <li>
+                <div class="speaker-info" id="morgan">
+                  <img src="img/speaker/morgan_roderick.jpg?v=1" alt="Morgan Roderick"/>
+                  <h5>Morgan Roderick</h5>
+                  <a class="twitter" href="http://twitter.com/mrgnrdrck">@mrgnrdrck</a>
+                  <a class="web" href="http://roderick.dk">roderick.dk</a>
+                  <a class="git" href="https://github.com/mroderick/" title="Morgan Roderick on Github">Watch his code</a>
+                </div>
+                <div class="talk">
+                  <h3>Closures, this, call and apply &ndash; an attempt at an explanation</h3>
+                  <p>
+                    Closures, 'this', call and apply are hard topics to grasp for newcomers to JavaScript.
+                  </p>
+                  <p>
+                    In this talk I will try to explain (with illustrations) what closures are, what 'this' is and how it 
+                    relates to closures, how callbacks can be confusing and how confusion can be avoided.
+                  </p>
+                  <p>
+                    Once you're comfortable and think you've understood 'this', I'll throw call and apply at you. When we 
+                    emerge on the other side, there will be unicorns and pixie dust :)
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="speaker-info" id="rene">
+                  <img src="img/speaker/rene_dudfield.png?v=1" alt="Rene Dudfield"/>
+                  <h5>Rene Dudfield</h5>
+                  <a class="twitter" href="http:/twitter.com/renedudfield">@renedudfield</a>
+                  <a class="web" href="http://rene.f0o.com/">rene.f0o.com</a>
+                  <a class="git" href="https://bitbucket.org/illume/" title="Rene Dudfield on bitbucket">Watch his code</a>
+                </div>
+                <div class="talk">
+                  <h3>Server side jquery</h3>
+                  <p>
+                    Tales of adventures using server side jquery and json instead of a templating language.  How server side 
+                    jquery works, and why server side jquery is useful.  Benchmark results comparing this technique to other 
+                    templating systems. Finally a discussion on how to integrate it with other systems.
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="col-third">
-            <h2>Who?</h2>
-            <p>
-              Reject.js is <strong>organised by BERLIN.JS</strong>, Berlin's finest JavaScript User
-              Group as a community event. We can't pay for any speakers or travel, but we can show
-              you a good JavaScript time!
-            </p>
-          </div>
+        </section>
+        <!-- THE SCHEDULE -->
+        <section class="schedule carved-borders clearfix">
+          <h2 id="schedule" class="center">The Schedule</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><h5>10:00</h5></td>
+                <td><h5>Gathering, warmup and first round of talks</h5></td>
+              </tr>
+              <tr>
+                <td>10:10</td>
+                <td><a href="#morgan">Morgan Roderick</a>
+                <h5>Closures, this, call and apply &ndash; an attempt at an explanation</h5></td>
+              </tr>
+              <tr>
+                <td>10:40</td>
+                <td><a href="#irakli">Irakli Gozalishivil</a>
+                <h5>Asynchronously recursive pure function <3 with lazy streams</h5></td>
+              </tr>
+              <tr>
+                <td colspan="2"><h5>Short break</h5></td>
+              </tr>
+              <tr>
+                <td>11:20</td>
+                <td><a href="#oleg">Oleg Podsechin</a>
+                <h5>Common Node &ndash; A CommonJS compatibility layer for Node.js</h5></td>
+              </tr>
+              <tr>
+                <td>11:50</td>
+                <td><a href="#michael">Michael Aufreiter</a>
+                <h5>Data.js &ndash; Data Manipulation and Graph Persistence for Node.js and the Browser</h5></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <h5>Time for extended lunch and private chats</h5>
+                </td>
+              </tr>
+              <tr>
+                <td><h5>14:00</h5></td>
+                <td><h5>Regathering and second round of talks</h5></td>
+              </tr>
+              <tr>
+                <td>14:10</td>
+                <td><a href="#felix">Felix Geisendörfer</a>
+                <h5>Building an alarm clock with node.js</h5></td>
+              </tr>
+              <tr>
+                <td>14:40</td>
+                <td><a href="#rene">Rene Dudfield</a>
+                <h5>Server side jQuery</h5></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <h5>anti-foodcoma break</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>15:20</td>
+                <td><a href="#tiffany">Tiffany Conroy</a>
+                <h5>Building a minimal form validation library using the HTML5 form validation API</h5></td>
+              </tr>
+              <tr>
+                <td>15:50</td>
+                <td><a href="#michiel">Michiel De Jong</a>
+                <h5>AppTorrent &ndash; An experiment in hash-hosting of HTML5 apps</h5></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <h5>Short Break &ndash; Refereshments provided</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>16:30</td>
+                <td><a href="#ian">Ian Jørgensen</a>
+                <h5>Back to data with pubsub.io</h5></td>
+              </tr>
+              <tr>
+                <td>17:00</td>
+                <td><a href="#paul">Paul Campbell</a>
+                <h5>whenever.js</h5></td>
+              </tr>
+              <tr>
+                <td colspan="2"><h5>Winding down</h5></td>
+              </tr>
+              <tr>
+                <td><h5>20:00</h5></td>
+                <td>
+                  Afterparty / Beer.js
+                  <h5>Get free beer @ <a href="http://www.pratergarten.de/e/">Prater Biergarten</a></h5>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
         <!-- ATTENDEES -->
         <section class="attendees carved-borders clearfix">
           <hgroup class="center">
-            <h3>Meet these fine people at our conference</h3>
+            <h2 id="attendees">Meet these fine people at our conference</h2>
             <h5>
               Got a ticket? Tell the world that you will attend Reject.JS by logging in <a href="http://lanyrd.com/2011/rejectjs/" title="Attend RejectJS on Lanyrd">on Lanyrd</a>.
             </h5>
@@ -102,7 +424,7 @@
         </section>
         <!-- SPONSOR ADS -->
         <section class="carved-borders clearfix">
-          <h3 class="center">Reject.JS is powered by these fine sponsors:</h3>
+          <h2 class="center" id="sponsors">Reject.JS is powered by these fine sponsors:</h2>
           <div class="sponsors center">
             <p>
               <a href="http://www.sinnerschrader.de" title="sinnerschrader">
@@ -115,13 +437,13 @@
                 <img src="img/logo-couchbase.png?v=1" width="200" height="29" alt="Couchbase">
               </a>
               <a href="http://www.watchlaterapp.com" title="Watchlater">
-                <img src="img/logo-watchlater.jpg?v=1" width="200" height="159" alt="Watchlater">
+                <img src="img/logo-watchlater.png?v=1" width="200" height="159" alt="Watchlater">
               </a>
               <a href="http://www.brands4friends.de/" title="Brands4Friends">
-                <img src="img/logo-brands4friends.jpg?v=1" width="200" height="24" alt="Brands4Friends">
+                <img src="img/logo-brands4friends.png?v=1" width="200" height="24" alt="Brands4Friends">
               </a>
               <a href="http://numberfour.eu" title="Number Four">
-                <img src="img/logo-numberfour.jpg?v=1" width="200" height="52" alt="Number Four">
+                <img src="img/logo-numberfour.png?v=1" width="200" height="52" alt="Number Four">
               </a>
             </p>
           </div>
@@ -160,5 +482,14 @@
       </div>
     </footer>
     <script src="js/lanyrd.js" defer></script>
+    <script>
+      var _gaq = [['_setAccount','UA-25036346-1'],['_trackPageview']];
+      (function(d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.async = g.src = '//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g, s);
+      }(document, 'script'));
+    </script>
   </body>
 </html>
