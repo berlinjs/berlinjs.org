@@ -204,15 +204,18 @@
                   <a class="git" href="https://github.com/unhosted/" title="Unhosted on Github">Watch his code</a>
                 </div>
                 <div class="talk">
-                  <h3>Announcing the unhosted app store</h3>
+                  <h3>AppTorrent: an experiment in hash-hosting of html5 apps</h3>
                   <p>
-                    The Unhosted project aims to free the web from monopolies. As such, we will be launching an app store, you 
-                    can submit your unhosted web apps, which you code entirely in client-side javascript, without the need for 
-                    you to run a server. 
+                    The Unhosted project defines a standard for cross-origin storage of user data. The idea is quite simple:
+                    write your html5 app without the ajax-backend. Write only the app. Then, the domain where that user's data
+                    is stored is discovered based on the user address (user@host) with which the user logs in.
                   </p>
                   <p>
-                    The store will be entirely non-profit, but try to channel money back to the app developer wherever this   
-                    doesn't clash with our ideals about free software and user empowerment. 
+                    When the need to store user data disappears, the html5 app itself is reduced to a 100% client-side affair.
+                    In other words, it is flattened to static content. The idea behind AppTorrent is that packaged static content
+                    can be moved around. As long as you don't serve more than one app per port to each client, javascript
+                    sandboxing is preserved. And because the app's URL is now &lt;hash&gt;.apptorrent.net, you can easily
+                    fork the app, and republish a patched version of it.
                   </p>
                 </div>
               </li>
