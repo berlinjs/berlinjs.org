@@ -485,7 +485,7 @@ nav li a.active {
   height: 245px;
   width: 247px;
   margin: 0 auto;
-  background: url(../img/logo-rejectjs.png) no-repeat top left;
+  background: url(../img/logo-rejectjs.png?v=1) no-repeat top left;
   display: block;
   float: none;
 }
@@ -579,6 +579,10 @@ nav li a.active {
 }
 
 /* --- END Schedule --- */
+
+iframe {
+  width: 100%;
+}
 
 .rejectjs {
   border: 10px solid #e1e1e1;
