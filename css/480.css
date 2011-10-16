@@ -116,10 +116,23 @@ body {
 /* --- END Speakers --- */
 
 .speaker {
-  width: 20%;
-  padding: 0 1% 2% 1%;
+  width: 95%;
+  margin: 10px 2.5%;
   float: left;
-  border: none;
+  padding: 10px;
+  border: 5px solid #fff;
+  background: #e1e1e1;
+  clear: right;
+}
+
+.empty {
+  border: 5px dashed rgba(255,255,255,0.7);
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.empty h3, .empty h5 {
+  color: #888;
 }
 
 .teaser a.button {

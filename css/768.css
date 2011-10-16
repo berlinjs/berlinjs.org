@@ -225,11 +225,20 @@ nav li a.active {
 
 .speaker {
   width: 31%;
-  margin: 0 1% 2% 1%;
+  margin: 0 1%;
   float: left;
   padding: 10px;
-  margin-bottom: 20px;
-  border: none;
+  border: 10px solid #fff;
+  background: #e1e1e1;
+}
+
+.empty {
+  border: 10px dashed rgba(255,255,255,0.7);
+  color: #888;
+}
+
+.empty h3, .empty h5 {
+  color: #888;
 }
 
 .promo p {
