@@ -219,13 +219,28 @@ nav li a.active {
   text-shadow: -1px -1px 0px #9C0015, 1px 1px 0px #FF6479;
 }
 
-.col-third {
-  width: 33%;
+.one-col > div {
+  width: 96%;
+  margin: 0 2%;
+}
+
+.two-cols > div {
+  width: 47%;
+  margin: 10px 0 0 2%;
+}
+
+.three-cols > div {
+  width: 29%;
+  margin: 10px 0 0 2%;
+  float: left;
+}
+
+.four-cols > div {
+  width: 22.25%;
+  margin: 10px 0 0 2%;
 }
 
 .speaker {
-  width: 31%;
-  margin: 0 1%;
   float: left;
   padding: 10px;
   border: 10px solid #fff;

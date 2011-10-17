@@ -558,7 +558,6 @@ nav li a.active {
 }
 
 .speaker {
-  float: left;
   padding: 10px;
   margin-bottom: 10px;
   border: 5px solid #fff;
@@ -615,7 +614,14 @@ iframe {
   margin: 0 auto 20px auto;
 }
 
-.col-third {
+.one-col,
+.two-cols,
+.three-cols,
+.four-cols {
+  margin: 10px 0;
+}
+
+.three-cols > div {
   width: 100%;
   float: left;
   padding: 10px;
@@ -634,11 +640,11 @@ iframe {
   border-bottom: none;
 }
 
-/*div.col-third:first-child {
+/*div.three-cols:first-child {
   border-top: none;
 }
 
-.col-third:last-child {
+.three-cols:last-child {
   border-bottom: none;
 }*/
 

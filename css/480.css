@@ -116,13 +116,9 @@ body {
 /* --- END Speakers --- */
 
 .speaker {
-  width: 95%;
-  margin: 10px 2.5%;
-  float: left;
   padding: 10px;
   border: 5px solid #fff;
   background: #e1e1e1;
-  clear: right;
 }
 
 .empty {
@@ -203,6 +199,18 @@ body {
 
 /* 11.MAIN */
 
+.one-col > div,
+.three-cols > div {
+  width: 96%;
+  margin: 10px 0 0 2%;
+}
+
+.two-cols > div,
+.four-cols > div  {
+  width: 47%;
+  margin: 10px 0 0 2%;
+  float: left;
+}
 
 /* 12.COMPLIMENTARY */
 
