@@ -230,9 +230,8 @@ nav li a.active {
 }
 
 .three-cols > div {
-  width: 29%;
-  margin: 10px 0 0 2%;
-  float: left;
+  width: 30%;
+  margin: 10px 0 0 2.5%;
 }
 
 .four-cols > div {
@@ -248,7 +247,7 @@ nav li a.active {
 }
 
 .empty {
-  border: 10px dashed rgba(255,255,255,0.7);
+  border: 5px dashed rgba(255,255,255,0.7);
   color: #888;
 }
 

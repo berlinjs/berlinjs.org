@@ -618,12 +618,11 @@ iframe {
 .two-cols,
 .three-cols,
 .four-cols {
-  margin: 10px 0;
+  margin: 10px auto;
 }
 
 .three-cols > div {
   width: 100%;
-  float: left;
   padding: 10px;
 }
 
