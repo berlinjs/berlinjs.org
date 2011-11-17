@@ -839,3 +839,20 @@ width : auto; }
 visibility : hidden; }
 
 /* 16.TEMPLATE SPECIFICS */
+
+/*
+    --- SANTA.JS ---
+*/
+
+.santa-teaser {
+  margin-top: 20px;
+  position: relative;
+}
+
+.santa-teaser a {
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 2%;
+  display: block;
+}
