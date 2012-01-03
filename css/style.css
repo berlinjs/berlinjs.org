@@ -562,6 +562,7 @@ nav li a.active {
   margin-bottom: 10px;
   border: 5px solid #fff;
   background: #e1e1e1;
+  box-shadow: 1px 1px 10px #ababab;
 }
 
 .empty {
