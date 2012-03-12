@@ -221,7 +221,7 @@ nav li a.active {
 
 .one-col > div {
   width: 96%;
-  margin: 0 2%;
+  margin: 0 auto;
 }
 
 .two-cols > div {
@@ -231,7 +231,7 @@ nav li a.active {
 
 .three-cols > div {
   width: 30%;
-  margin: 10px 0 0 2.5%;
+  margin: 10px 0 0 2%;
   float: left;
 }
 

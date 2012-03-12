@@ -1,0 +1,76 @@
+/* --- special typo --- */
+#sauce h1,
+#sauce h2,
+#sauce h3 {
+  color: #d70101;
+}
+
+#sauce .empty h3 {
+  color: #888;
+}
+
+#sauce a {
+  color: #db0000;
+}
+#sauce em {
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* --- structural --- */
+
+#sauce header {
+  margin: 20px auto ;
+}
+
+#sauce .logo {
+  margin: 40px auto 40px auto;
+  background: url(../img/logo-saucelabs.jpg) no-repeat top center;
+  background-size: 200px;
+}
+
+#sauce hgroup {
+  display: block;
+  margin-left: 260px;
+}
+
+/* --- call to action --- */
+#sauce .smallbutton {
+  background: #db0000;
+  background: -moz-linear-gradient(top, rgb(215,1,1), rgb(120,25,25));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(215,1,1)), to(rgb(120,25,25)));
+  background: -webkit-linear-gradient(top, rgb(215,1,1) rgb(120,25,25));
+  background: -o-linear-gradient(top, rgb(215,1,1), rgb(120,25,25));
+  background: linear-gradient(top, rgb(215,1,1), rgb(120,25,25));
+  box-shadow: 1px 1px 5px #666;
+  color: #fff;
+}
+
+#sauce .smallbutton:hover {
+  background: #FF5079;
+  background: -moz-linear-gradient(top, rgb(215,95,95), rgb(215,1,1));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(215,95,95)), to(rgb(215,1,1)));
+  background: -webkit-linear-gradient(top, rgb(215,95,95) rgb(215,1,1));
+  background: -o-linear-gradient(top, rgb(215,95,95),  rgb(215,1,1));
+  background: linear-gradient(top, rgb(215,95,95),  rgb(215,1,1));
+}
+
+#sauce .smallbutton:active {
+  box-shadow: 1px 1px 2px #888;
+}
+
+/* --- responsiveness --- */
+
+@media (max-width: 768px) {
+  
+  #sauce .logo {
+    margin: 10px auto 10px auto;
+    background: url(../img/logo-saucelabs.jpg) no-repeat top center;
+    background-size: 200px;
+  }
+  
+  #sauce hgroup {
+    display: inline;
+    margin-left: 0;
+  }
+}
