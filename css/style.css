@@ -311,10 +311,6 @@ a.smallbutton {
   font-size: 1em;
 }
 
-/*a img {
-  margin: 0 auto;
-}*/
-
 .center {
   display: table;
   margin: 10px auto;
@@ -640,14 +636,6 @@ iframe {
   border-bottom: none;
 }
 
-/*div.three-cols:first-child {
-  border-top: none;
-}
-
-.three-cols:last-child {
-  border-bottom: none;
-}*/
-
 .sponsors img {
   margin: 1em;
   vertical-align: middle;
@@ -856,4 +844,17 @@ visibility : hidden; }
   height: 100%;
   right: 2%;
   display: block;
+}
+
+/* 
+    --- Misc. ---
+*/
+
+.conduct {
+  margin-left: 1em;
+  list-style-type: disc;
+}
+
+.conduct li {
+  margin-bottom: 0.5em;
 }
