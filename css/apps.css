@@ -1,0 +1,28 @@
+#apps .logo {
+	margin-right: 15px;
+}
+#apps h4 {
+	margin: 0;
+	padding: 1.2em 0;
+}
+#apps h1 {
+	margin: 0;
+}
+
+#apps .content {
+	clear: both;
+}
+#apps .announcement {
+	margin: auto;
+	max-width: 37em;
+}
+
+#apps .intro {
+	font-size: 1.2em;
+}
+
+#apps .plan img {
+	display: block;
+	margin: auto;
+	border: 1px solid gray;
+}
