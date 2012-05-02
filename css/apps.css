@@ -21,6 +21,10 @@
 	font-size: 1.2em;
 }
 
+#apps .speaker {
+	margin-bottom: 1em;
+}
+
 #apps .plan img {
 	display: block;
 	margin: auto;
