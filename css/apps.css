@@ -1,32 +1,41 @@
 #apps .logo {
-	margin-right: 15px;
+  margin-right: 15px;
 }
 #apps h4 {
-	margin: 0;
-	padding: 1.2em 0;
+  margin: 0;
+  padding: 1.2em 0;
 }
 #apps h1 {
-	margin: 0;
+  margin: 0;
 }
 
 #apps .content {
-	clear: both;
+  clear: both;
+  padding-top: 1em;
 }
+
 #apps .announcement {
-	margin: auto;
-	max-width: 37em;
+  margin: auto;
+  max-width: 37em;
 }
 
 #apps .intro {
-	font-size: 1.2em;
+  font-size: 1.2em;
+}
+
+#apps .announcement li,
+#apps .speaker li {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 #apps .speaker {
-	margin-bottom: 1em;
+  min-height: 14em;
 }
 
 #apps .plan img {
-	display: block;
-	margin: auto;
-	border: 1px solid gray;
+  display: block;
+  margin: auto;
+  border: 1px solid gray;
 }
