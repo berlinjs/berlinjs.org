@@ -475,7 +475,7 @@ nav li a.active {
 .rejectjs hgroup {
   position: relative;
   top: 1em;
-  left: -100px;
+  left: -80px;
   z-index: 2
 }
 
