@@ -463,28 +463,28 @@ nav li a.active {
 
 /* --- Reject.JS Final Header --- */
 
-.rejectjs header hgroup {
-  width: 90%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+.rejectjs {
+  position: relative;
+  background: url(http://rejectjs.org/images/bg_body.gif);
+  border: 10px solid #E1E1E1;
+  box-shadow: 0 0 10px #888;
+  margin: 2em 0;
+  overflow: hidden;
 }
 
-.rejectjs header h2 {
-  margin-top: 15px;
+.rejectjs hgroup {
+  position: relative;
+  top: 1em;
+  left: -100px;
+  z-index: 2
 }
 
-.reject-logo {
-  height: 245px;
-  width: 247px;
-  margin: 0 auto;
-  background: url(../img/logo-rejectjs.png?v=1) no-repeat top left;
-  display: block;
-  float: none;
-}
-
-.rejectjs h1 img {
-  margin-top: 20px;
+.rejectjs img {
+  position: absolute;
+  top: -50px;
+  right: -30px;
+  max-height: 200%;
+  z-index: 1
 }
 
 /* --- END Final Header --- */
@@ -592,14 +592,6 @@ nav li a.active {
 
 iframe {
   width: 100%;
-}
-
-.rejectjs,
-.berlinjs {
-  border: 10px solid #e1e1e1;
-  padding-bottom: 10px;
-  background: #e9e9e9;
-  position: relative;
 }
 
 .promo, .attendees {
