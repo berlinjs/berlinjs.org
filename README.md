@@ -1,5 +1,5 @@
 BerlinJS.org website
-================
+====================
 
 * Website: http://berlinjs.org
 * Twitter: http://twitter.com/berlinjs
