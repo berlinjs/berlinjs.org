@@ -28,12 +28,10 @@
 }
 
 #apps .talks h2 {
-  font-size: 1.5em;
   text-align: center;
 }
 
-#apps .announcement li,
-#apps .speaker li {
+#apps .bullet-list li {
   list-style-type: disc;
   margin-left: 1.5em;
   margin-bottom: 0.5em;
