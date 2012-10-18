@@ -518,7 +518,7 @@ nav li a.active {
 
 .speaker-overlay h2 {
     font-size: 300%;
-    color: red;
+    color: #df2f58;
     text-shadow: 0 6px 6px #666;
     margin: 60px 40% auto;
 }
