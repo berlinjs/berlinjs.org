@@ -187,7 +187,7 @@ ul {
 
 ol {
   list-style-type : decimal;
-  padding-left : 24px;
+  padding-left : 24px; 
 }
 
 li ul,
@@ -497,32 +497,6 @@ nav li a.active {
   float: none;
 }
 
-.speaker.faded {
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: alpha(opacity=50);
-	-moz-opacity:0.5;
-	-khtml-opacity: 0.5;
-	opacity: 0.5;
-}
-
-.speaker-overlay {
-    position: absolute;
-    font-size: 400%;
-	-webkit-transform: rotate(-12deg);
-	-ms-transform: rotate(-12deg);
-	transform: rotate(-12deg);
-	z-index: 20;
-	width: 100%
-	border: 1px solid black;
-}
-
-.speaker-overlay h2 {
-    font-size: 300%;
-    color: #df2f58;
-    text-shadow: 0 6px 6px #666;
-    margin: 60px 40% auto;
-}
-
 .speaker-list p {
   font-size: 14px;
 }
@@ -593,10 +567,6 @@ nav li a.active {
 
 .empty h3, .empty h5 {
   color: #888;
-}
-
-.speaker_supplemental {
-    margin-top: 32px;
 }
 
 /* --- END Speakers --- */
@@ -867,7 +837,7 @@ visibility : hidden; }
   display: block;
 }
 
-/*
+/* 
     --- Misc. ---
 */
 
