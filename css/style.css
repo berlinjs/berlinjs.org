@@ -833,6 +833,20 @@ visibility : hidden; }
   display: block;
 }
 
+/*
+    --- Reject.JS ---
+*/
+
+.rejectjs-banner {
+  margin: 20px auto;
+  max-width: 90%;
+  position: relative;
+}
+
+.rejectjs-banner img {
+  box-shadow: 1px 1px 10px #ababab;
+}
+
 /* 
     --- Misc. ---
 */
