@@ -3,3 +3,12 @@
   background-position: center center;
   background-size: 65%
 }
+
+#angular .content li {
+  list-style-type: disc;
+  margin-left: 1.5em;
+}
+
+#angular .intro {
+  font-size: 1.2em;
+}
