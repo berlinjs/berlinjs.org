@@ -16,3 +16,7 @@
 .mu-widget img, .mu-rsvp-btn img {
   vertical-align: middle;
 }
+
+#angular .mu-widget .mu-ev-details {
+  position: static;
+}
