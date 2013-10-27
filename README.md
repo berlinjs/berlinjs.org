@@ -19,4 +19,4 @@ it's best to follow us on [Twitter (@berlinjs)](http://twitter.com/berlinjs)
 ## How long should my talk be?
 
 This varies depending on the format of your talk, but it shouldn't be longer than
-25 minutes. A lightning talk should of 5 minutes long.
+25 minutes. A lightning talk should be 5 minutes long.
