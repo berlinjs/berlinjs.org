@@ -1,7 +1,7 @@
 BerlinJS.org website
 ====================
 
-To get the latest info about everyhing BerlinJS related (event announcements etc.)
+To get the latest info about everything BerlinJS related (event announcements etc.)
 it's best to follow us on [Twitter (@berlinjs)](http://twitter.com/berlinjs)
 
 * Website: http://berlinjs.org
