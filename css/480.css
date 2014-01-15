@@ -199,7 +199,11 @@ body {
 
 /* 11.MAIN */
 
-.one-col > div,
+.one-col > div {
+  width: 96%;
+  margin: 10px 0 0 3%;
+}
+
 .three-cols > div {
   width: 96%;
   margin: 10px 0 0 2%;
