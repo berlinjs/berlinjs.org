@@ -556,6 +556,11 @@ nav li a.active {
   box-shadow: 1px 1px 10px #ababab;
 }
 
+.speaker li {
+  list-style: disc outside;
+  margin-left: 1em;
+}
+
 .empty {
   border: 5px dashed rgba(255,255,255,0.7);
   color: #888;
@@ -564,7 +569,6 @@ nav li a.active {
 .empty h3, .empty h5 {
   color: #888;
 }
-
 /* --- END Speakers --- */
 
 /* --- Schedule --- */
