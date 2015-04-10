@@ -702,6 +702,13 @@ footer ul {
   list-style: none;
 }
 
+footer h2 {
+  color: #223035;
+  text-shadow: none;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
 /* 14.GLOBAL OBJECTS */
 
 .clearfix{
