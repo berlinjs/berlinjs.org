@@ -154,7 +154,7 @@ h6 {
 }
 
 
-h4,h5,h6 {
+h3,h4,h5,h6 {
   color: #223035;
   text-shadow: none;
 }
@@ -257,7 +257,7 @@ font-size : 0.85em;}
 a,
 a:visited {
 outline : none;
-color : #ce1e47;
+color : #b1193d;
 text-decoration : none; }
 
 a:hover {
@@ -515,10 +515,6 @@ nav li a.active {
   float: left;
 }
 
-.speaker-info h5 {
-  color: #CE1E47;
-}
-
 .speaker-list img {
   width: 30%;
   float: left;
@@ -564,11 +560,11 @@ nav li a.active {
 
 .empty {
   border: 5px dashed rgba(255,255,255,0.7);
-  color: #888;
+  color: #324248;
 }
 
 .empty h3, .empty .speaker-name {
-  color: #888;
+  color: #324248;
 }
 /* --- END Speakers --- */
 
