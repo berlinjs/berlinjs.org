@@ -42,8 +42,15 @@ _____________________________________________________
   height: 135px;
   width: 195px;
   margin: 0 auto 10px auto;
-  background: url(../img/logo-x2.png) no-repeat top center;
-  background-size: 195px 135px;
+  background: url() no-repeat top center;
+}
+img.logo.logo-default, img.logo.logo-s {
+  display: none;
+  visibility: hidden;
+}
+img.logo.logo-2x{
+  display: block;
+  visibility: visible;
 }
 /* 9.NAVIGATION */
 /* 10.CONTENT */

@@ -366,7 +366,14 @@ h1 span {
   height: 135px;
   width: 260px;
   margin: 0 auto 10px auto;
-  background: url(../img/logo-s.png) no-repeat top center;
+}
+img.logo.logo-default, img.logo.logo-2x {
+  display: none;
+  visibility: hidden;
+}
+img.logo.logo-s{
+  display: block;
+  visibility: visible;
 }
 
 .ug-info {

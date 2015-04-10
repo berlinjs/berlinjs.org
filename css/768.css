@@ -77,7 +77,14 @@ a.button:active {
   width: 260px;
   height: 176px;
   float: left;
-  background: url(../img/logo.png) no-repeat top left;
+}
+img.logo.logo-2x, img.logo.logo-s {
+  display: none;
+  visibility: hidden;
+}
+img.logo.logo-default{
+  display: block;
+  visibility: visible;
 }
 
 .ug-info {
