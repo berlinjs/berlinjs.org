@@ -127,10 +127,6 @@ body {
   margin-bottom: 10px;
 }
 
-.empty h3, .empty h5 {
-  color: #888;
-}
-
 .teaser a.button {
   position: absolute;
   width: 30%;

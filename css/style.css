@@ -119,7 +119,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.speaker-name
+ {
   color: #1ea0ce;
   font-family : 'Droid Sans', sans-serif;
   font-weight: 700;
@@ -127,15 +129,9 @@ h6 {
   text-shadow: 0 1px 1px #666;
 }
 
-h1 {
-  margin-bottom : .75em;
-  font-size : 3em;
-  line-height : 1.2;
-}
-
 h2 {
   margin-bottom : .75em;
-  font-size : 2em;
+  font-size : 3em;
   line-height : 1.2;
 }
 
@@ -145,20 +141,18 @@ h3 {
   line-height : 1.3;
 }
 
-h4 {
+h5, .speaker-name {
   margin-bottom : 1.25em;
   font-size : 1.25em;
   line-height : 1.25;
+  text-shadow: none;
 }
 
-h5 {
+h6 {
   margin-bottom : 1.5em;
   font-size : 1em;
 }
 
-h6 {
-  font-size : 1em;
-}
 
 h4,h5,h6 {
   color: #223035;
@@ -573,7 +567,7 @@ nav li a.active {
   color: #888;
 }
 
-.empty h3, .empty h5 {
+.empty h3, .empty .speaker-name {
   color: #888;
 }
 /* --- END Speakers --- */
