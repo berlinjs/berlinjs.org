@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>BerlinJS &mdash; Berlin's finest JavaScript Usergroup</title>
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)" href="css/2x.css?v=1">
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 
     <link rel="apple-touch-icon-precomposed" href="http://berlinjs.org/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" sizes="72x72" href="http://berlinjs.org/apple-touch-icon-72x72.png">
@@ -39,19 +39,25 @@
   <body>
     <header role="banner" class="clearfix">
       <div class="clearfix">
-        <a href="/" title="BERLIN.JS"><h1 class="logo"></h1></a>
-        <h3 class="ug-info triangle-border left">
+        <h1>
+          <a href="/" title="BERLIN.JS">
+            <img alt="BERLIN.JS" src="img/logo.png" class="logo logo-default" />
+            <img alt="BERLIN.JS" src="img/logo-x2.png" class="logo logo-2x" aria-hidden="true" />
+            <img alt="BERLIN.JS" src="img/logo-s.png" class="logo logo-s" aria-hidden="true" />
+          </a>
+        </h1>
+        <p class="ug-info triangle-border left">
           Berlin.JS is a usergroup focused on JavaScript and related topics. We meet regularly on
           the 3rd Thursday each month at 7pm at
           <a href="http://co-up.de" title="co.up Coworking">co.up Offices</a>,
           Adalbertstraße 7-8 in Berlin-Kreuzberg. Talks start at 7:30pm.
-        </h3>
+        </p>
       </div>
     </header>
     <div role="main" class="content clearfix">
       <article class="clearfix">
         <header class="clearfix center">
-          <h1>Next meetup on April 16<sup>th</sup></h1>
+          <h2>Next meetup on April 16<sup>th</sup></h2>
         </header>
         <!-- TALKS -->
         <section class="clearfix">
@@ -59,7 +65,7 @@
             <!-- THIS IS WHAT A TALK ABSTRACT LOOKS LIKE
             <div class="speaker">
               <h3>Your topic</h3>
-              <h5><a href="http://twitter.com/your_twitter_handle">Your Name</a></h5>
+              <p class="speaker-name"><a href="http://twitter.com/your_twitter_handle">Your Name</a></p>
               <p>
                 Description
               </p>
@@ -70,7 +76,7 @@
             -->
             <div class="speaker">
               <h3>Reactive Programming with RxJS</h3>
-              <h5><a href="http://danielbachler.de">Daniel Bachler</a></h5>
+              <p class="speaker-name"><a href="http://danielbachler.de">Daniel Bachler</a></p>
               <p>
                 Have you ever had to deal with interactions between several events and/or ajax responses? Did those interactions become more complex as the app developed? Did you ever find yourself in a mess of state logic that was hard to reason about, let alone unit test? If so, reactive programming might be a great new tool in your toolbox.
               </p>
@@ -81,7 +87,7 @@
 
             <div class="speaker empty">
               <h3>Free slot</h3>
-              <h5>This slot could be yours!<br />Submit your talk now.</h5>
+              <p class="speaker-name">This slot could be yours!<br />Submit your talk now.</p>
               <p>
                 You did some great stuff with JavaScript? You want to show it to the community?
               </p>
@@ -93,7 +99,7 @@
 
             <div class="speaker empty">
               <h3>Free slot</h3>
-              <h5>This slot could be yours!<br />Submit your talk now.</h5>
+              <p class="speaker-name">This slot could be yours!<br />Submit your talk now.</p>
               <p>
                 You did some great stuff with JavaScript? You want to show it to the community?
               </p>
@@ -112,10 +118,10 @@
       </div>
 
     </div>
-    <footer>
+    <footer role="complimentary">
       <div class="clearfix three-cols">
         <div>
-          <h5>Get in touch</h5>
+          <h2>Get in touch</h2>
           <ul>
             <li>
               Follow Berlin.JS on <a href="http://twitter.com/berlinjs" title="Follow us on Twitter">Twitter</a>
@@ -132,7 +138,7 @@
           </ul>
         </div>
         <div>
-          <h5>The team</h5>
+          <h2>The team</h2>
           <p>
             Berlin.JS is organized by
             <a href="http://www.twitter.com/rmehner" title="Follow Robin on Twitter">Robin Mehner</a>,
@@ -143,15 +149,16 @@
           </p>
         </div>
         <div>
-          <h5>Supporters</h5>
+          <h2>Supporters</h2>
           <p>
             Our Meetups are hosted by <a href="http://www.co-up.de" title="co.up Coworking">co.up</a>.
           </p>
         </div>
       </div>
+      <section>
       <div class="clearfix one-col">
         <div>
-          <h5>Code of Conduct</h5>
+          <h2>Code of Conduct</h2>
           <p>
             Long story short: <strong>Be awesome to each other.</strong>
           </p>
@@ -168,6 +175,7 @@
           </p>
         </div>
       </div>
+      </section>
     </footer>
     <script>
       var _gaq = [['_setAccount','UA-25036346-1'],['_trackPageview']];
