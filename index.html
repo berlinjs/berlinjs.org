@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>BerlinJS &mdash; Berlin's finest JavaScript Usergroup</title>
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)" href="css/2x.css?v=1">
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 
     <link rel="apple-touch-icon-precomposed" href="http://berlinjs.org/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" sizes="72x72" href="http://berlinjs.org/apple-touch-icon-72x72.png">
@@ -39,38 +39,44 @@
   <body>
     <header role="banner" class="clearfix">
       <div class="clearfix">
-        <a href="/" title="BERLIN.JS"><h1 class="logo"></h1></a>
-        <h3 class="ug-info triangle-border left">
+        <h1>
+          <a href="/" title="BERLIN.JS">
+            <img alt="BERLIN.JS" src="img/logo.png" class="logo logo-default" />
+            <img alt="BERLIN.JS" src="img/logo-x2.png" class="logo logo-2x" aria-hidden="true" />
+            <img alt="BERLIN.JS" src="img/logo-s.png" class="logo logo-s" aria-hidden="true" />
+          </a>
+        </h1>
+        <p class="ug-info triangle-border left">
           Berlin.JS is a usergroup focused on JavaScript and related topics. We meet regularly on
-          the 3rd Thursday each month at 7p.m. at
+          the 3rd Thursday each month at 7pm at
           <a href="http://co-up.de" title="co.up Coworking">co.up Offices</a>,
-          Adalbertstraße 7-8 in Berlin-Kreuzberg.
-        </h3>
+          Adalbertstraße 7-8 in Berlin-Kreuzberg. Talks start at 7:30pm.
+        </p>
       </div>
     </header>
     <div role="main" class="content clearfix">
       <article class="clearfix">
         <header class="clearfix center">
-          <h1>Next meetup on May 15<sup>th</sup></h1>
+          <h2>Next meetup on May 21<sup>st</sup></h2>
         </header>
-        <section class="clearfix">
         <!-- TALKS -->
-          <!-- THIS IS HOW A TALK ABSTRACT LOOKS LIKE
-          <div class="speaker">
-            <h3>Your topic</h3>
-            <h5><a href="http://twitter.com/your_twitter_handle">Your Name</a></h5>
-            <p>
-              Description
-            </p>
-            <p>
-              Further description
-            </p>
-          </div>
-          -->
+        <section class="clearfix">
           <div class="three-cols clearfix">
+            <!-- THIS IS WHAT A TALK ABSTRACT LOOKS LIKE
+            <div class="speaker">
+              <h3>Your topic</h3>
+              <p class="speaker-name"><a href="http://twitter.com/your_twitter_handle">Your Name</a></p>
+              <p>
+                Description
+              </p>
+              <p>
+                Further description
+              </p>
+            </div>
+            -->
             <div class="speaker">
               <h3>JavaScript Crypto</h3>
-              <h5><a href="http://twitter.com/darkcton">Nils Kenneweg</a></h5>
+              <p class="speaker-name"><a href="http://twitter.com/darkcton">Nils Kenneweg</a></p>
               <p>
                 JavaScript is on the rise and provides many advantages.<br>
                 To secure user data one might want to do crypto in JavaScript too.
@@ -83,9 +89,9 @@
 
             <div class="speaker empty">
               <h3>Free slot</h3>
-              <h5>This slot could be yours!<br />Submit your talk now.</h5>
+              <p class="speaker-name">This slot could be yours!<br />Submit your talk now.</p>
               <p>
-                You did some crazy stuff with JavaScript? You want to show it to the community?
+                You did some great stuff with JavaScript? You want to show it to the community?
               </p>
               <p>
                 Drop us a line on your topic on <a href="http://twitter.com/berlinjs" title="BerlinJS on Twitter">
@@ -95,32 +101,41 @@
 
             <div class="speaker empty">
               <h3>Free slot</h3>
-              <h5>This slot could be yours!<br />Submit your talk now.</h5>
+              <p class="speaker-name">This slot could be yours!<br />Submit your talk now.</p>
               <p>
-                You did some crazy stuff with JavaScript? You want to show it to the community?
+                You did some great stuff with JavaScript? You want to show it to the community?
               </p>
               <p>
                 Drop us a line on your topic on <a href="http://twitter.com/berlinjs" title="BerlinJS on Twitter">
                 Twitter</a> or to our <a href="http://groups.google.com/group/js-berlin" title="BerlinJS Mailinglist">Mailinglist</a>.
               </p>
             </div>
+
+            <!-- <div class="speaker empty">
+              <h3>Free slot</h3>
+              <p class="speaker-name">This slot could be yours!<br />Submit your talk now.</p>
+              <p>
+                You did some great stuff with JavaScript? You want to show it to the community?
+              </p>
+              <p>
+                Drop us a line on your topic on <a href="http://twitter.com/berlinjs" title="BerlinJS on Twitter">
+                Twitter</a> or to our <a href="http://groups.google.com/group/js-berlin" title="BerlinJS Mailinglist">Mailinglist</a>.
+              </p>
+            </div> -->
           </div>
-
         </section>
-
       </article>
-
       <div class="clearfix">
         <p class="lanyrd">
-          <a href="http://lanyrd.com/2014/berlinjs-april/" target="_blank">This event is tracked on Lanyrd</a>
+          <a href="http://lanyrd.com/2015/berlinjs-may" target="_blank">This event is tracked on Lanyrd</a>
         </p>
       </div>
 
     </div>
-    <footer>
+    <footer role="complimentary">
       <div class="clearfix three-cols">
         <div>
-          <h5>Get in touch</h5>
+          <h2>Get in touch</h2>
           <ul>
             <li>
               Follow Berlin.JS on <a href="http://twitter.com/berlinjs" title="Follow us on Twitter">Twitter</a>
@@ -137,37 +152,44 @@
           </ul>
         </div>
         <div>
-          <h5>The team</h5>
+          <h2>The team</h2>
           <p>
-            Berlin.JS is organized by <a href="http://www.twitter.com/rmehner" title="Follow Robin on
-            Twitter">Robin Mehner</a>, <a href="http://www.twitter.com/janl" title="Follow Jan on
-            Twitter">Jan Lehnardt</a> &amp; <a href="http://www.twitter.com/theophani" title="Follow Tiffany on
-            Twitter">Tiffany Conroy</a>. Design by <a href="http://www.twitter.com/m_besser"
-            title="Follow Matti on Twitter">Matti Besser</a>.
+            Berlin.JS is organized by
+            <a href="http://www.twitter.com/rmehner" title="Follow Robin on Twitter">Robin Mehner</a>,
+            <a href="http://www.twitter.com/janl" title="Follow Jan on Twitter">Jan Lehnardt</a>,
+            <a href="http://www.twitter.com/theophani" title="Follow Tiffany on Twitter">Tiffany Conroy</a>&amp;
+            <a href="http://www.twitter.com/sheley" title="Follow Michele on Twitter">Michele Guido</a>.
+            Design by <a href="http://www.twitter.com/m_besser" title="Follow Matti on Twitter">Matti Besser</a>.
           </p>
         </div>
         <div>
-          <h5>Supporters</h5>
+          <h2>Supporters</h2>
           <p>
             Our Meetups are hosted by <a href="http://www.co-up.de" title="co.up Coworking">co.up</a>.
           </p>
         </div>
       </div>
+      <section>
       <div class="clearfix one-col">
         <div>
-          <h5>Code of Conduct</h5>
+          <h2>Code of Conduct</h2>
           <p>
             Long story short: <strong>Be awesome to each other.</strong>
           </p>
 
           <p>
-            Our goal is to have an awesome and inclusive community meetup where people meet,
+            Our goal is to have an awesome, inclusive and safe community meetup where people meet,
             hang out together, chat, listen to talks, exchange ideas and make new friends.
             Any harmful or discriminating behaviour will not be tolerated and results
             in the offending person being expelled from the meetup.
           </p>
+
+          <p>
+            For details on what kinds of behaviour are not tolerated and consequences for violating these rules, we refer to the <a href="http://rubyberlin.github.io/code-of-conduct">Berlin Code of Conduct</a>.
+          </p>
         </div>
       </div>
+      </section>
     </footer>
     <script>
       var _gaq = [['_setAccount','UA-25036346-1'],['_trackPageview']];

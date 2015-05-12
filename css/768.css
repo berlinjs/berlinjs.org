@@ -74,10 +74,16 @@ a.button:active {
 /* 8.BANNER */
 
 .logo {
-  width: 260px;
-  height: 176px;
+  width: 218px;
   float: left;
-  background: url(../img/logo.png) no-repeat top left;
+}
+img.logo.logo-2x, img.logo.logo-s {
+  display: none;
+  visibility: hidden;
+}
+img.logo.logo-default{
+  display: block;
+  visibility: visible;
 }
 
 .ug-info {
@@ -249,11 +255,8 @@ nav li a.active {
 
 .empty {
   border: 5px dashed rgba(255,255,255,0.7);
-  color: #888;
-}
-
-.empty h3, .empty h5 {
-  color: #888;
+  color: #324248;
+  margin-bottom: 10px;
 }
 
 .promo p {
