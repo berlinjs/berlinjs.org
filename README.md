@@ -6,7 +6,7 @@ it's best to follow us on [Twitter (@berlinjs)](http://twitter.com/berlinjs)
 
 * Website: http://berlinjs.org
 * Twitter: http://twitter.com/berlinjs
-* Google Group: http://groups.google.com/group/js-berlin
+* Meetup Group: https://www.meetup.com/Berlin-JS/
 
 ## How to submit a talk proposal
 
