@@ -187,7 +187,7 @@ ul {
 
 ol {
   list-style-type : decimal;
-  padding-left : 24px; 
+  padding-left : 24px;
 }
 
 li ul,
@@ -457,38 +457,6 @@ nav li a.active {
   color: inherit;
   text-decoration: inherit;
 }
-
-/* 10.CONTENT */
-
-.content {
-}
-
-/* --- Reject.JS Final Header --- */
-
-.special-announcement {
-  position: relative;
-  background: url(http://rejectjs.org/images/bg_body.gif);
-  border: 10px solid #E1E1E1;
-  box-shadow: 0 0 10px #888;
-  margin: 2em 0;
-  overflow: hidden;
-}
-
-.special-announcement hgroup {
-  position: relative;
-  top: 1em;
-  z-index: 2
-}
-
-.special-announcement img {
-  position: absolute;
-  top: -50px;
-  right: -30px;
-  max-height: 200%;
-  z-index: 1
-}
-
-/* --- END Final Header --- */
 
 /* --- Speakers --- */
 
