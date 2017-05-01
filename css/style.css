@@ -799,3 +799,7 @@ visibility : hidden; }
 .lanyrd {
   text-align: center;
 }
+
+.special-announcement {
+  margin-top: .75em;
+}
