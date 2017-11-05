@@ -129,7 +129,11 @@ h6,
   text-shadow: 0 1px 1px #666;
 }
 
-
+.speaker-name + .speaker-twitter-handle {
+  display: block;
+  margin-top: -20px;
+  margin-bottom: 25px;
+}
 
 h1, h2 {
   margin-bottom : .75em;
