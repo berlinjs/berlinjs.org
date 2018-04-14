@@ -10,13 +10,12 @@ it's best to follow us on [Twitter (@berlinjs)](http://twitter.com/berlinjs)
 
 ## How to submit a talk proposal
 
-* Create a pull request with yourself added to the next meetup announcement.
-* Wait for discussion around your proposal, and optionally adjust your proposal based on the discussion.
-* One of the repo committers will merge and close your PR
+Please [open an issue](https://github.com/berlinjs/berlinjs.org/issues/new) on this
+repo.
+We have an issue template that should provide you with the necessary information.
+Please have a look at our [contribution guidelines](https://github.com/berlinjs/berlinjs.org/blob/gh-pages/.github/CONTRIBUTING.md)
+for other means of submission and information regarding the talk format or technical
+setup.
 
-    **If you need any help with this process** because you are new to GitHub or git, give us a poke on Twitter. We are happy to help newcomers in any way we can!
-
-## How long should my talk be?
-
-This varies depending on the format of your talk, but it shouldn't be longer than
-25 minutes. A lightning talk should be 5 minutes long.
+**If you need any help with this process** because you are new to GitHub or git,
+give us a poke on Twitter. We are happy to help newcomers in any way we can!
