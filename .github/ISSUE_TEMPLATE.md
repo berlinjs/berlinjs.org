@@ -2,22 +2,15 @@
 
 
 
-##### Abstract 
+##### Abstract
 
 <!-- try to stick to 500 characters (two tweets 😉) -->
-
-
-
-###### What's the level of your talk?
-
-<!-- beginner, intermediate, advanced -->
-
 
 ###### Your name
 
 
 
-######Means to get in touch with you
+###### Means to get in touch with you
 
 <!--
 
