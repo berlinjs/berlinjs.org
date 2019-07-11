@@ -1,21 +1,41 @@
 BerlinJS.org website
 ====================
 
-To get the latest info about everything BerlinJS related (event announcements etc.)
-it's best to follow us on [Twitter (@berlinjs)](http://twitter.com/berlinjs)
+:link: https://berlinjs.org
 
-* Website: http://berlinjs.org
-* Twitter: http://twitter.com/berlinjs
-* Meetup Group: https://www.meetup.com/Berlin-JS/
+Other places you'll find us:
 
-## How to submit a talk proposal
+* [Twitter](https://twitter.com/berlinjs)
+* [Meetup](https://www.meetup.com/Berlin-JS/)
+* [Slack](https://berlinjs-slack.herokuapp.com/)
 
-Please [open an issue](https://github.com/berlinjs/berlinjs.org/issues/new) on this
-repo.
-We have an issue template that should provide you with the necessary information.
-Please have a look at our [contribution guidelines](https://github.com/berlinjs/berlinjs.org/blob/gh-pages/.github/CONTRIBUTING.md)
-for other means of submission and information regarding the talk format or technical
-setup.
+For the latest info on everything BerlinJS related (event announcements, news, etc.),
+it's best to follow us on [Twitter (@berlinjs)](https://twitter.com/berlinjs).
 
-**If you need any help with this process** because you are new to GitHub or git,
-give us a poke on Twitter. We are happy to help newcomers in any way we can!
+## Want to get involved?
+
+### Speak at BerlinJS
+
+Check out our [contribution guidelines](https://github.com/berlinjs/berlinjs.org/blob/gh-pages/.github/CONTRIBUTING.md) for specific information regarding the talk formats or technical setup. **TLDR**: [Open an issue](https://github.com/berlinjs/berlinjs.org/issues/new) on this repo and use one our issue templates to guide you through your talk submission.
+
+**If you need any help with this process** because you are new to GitHub, git or speaking in general, send us a message on [Twitter](https://twitter.com/berlinjs). We are happy to help newcomers in any way we can!
+
+### Sponsor a BerlinJS event
+
+BerlinJS couldn't exist without the support of the community and this sometimes includes companies who are willing to sponsor. Sponsors can help in a variety of ways - from flying in speakers from outside of Berlin to hosting us when we have special events. 
+
+Please [open an issue](https://github.com/berlinjs/berlinjs.org/issues/new) on this repo using the `Sponsor Request` template if you're interested in sponsoring an upcoming BerlinJS event.
+
+### Help us improve BerlinJS
+
+Have an idea or suggestion for how we can improve BerlinJS? Please [open an issue](https://github.com/berlinjs/berlinjs.org/issues/new) on this repo and use the `Meetup Suggestion` template to give us all of your thoughts.
+
+## Our Team
+
+BerlinJS is organized by [Robin](https://github.com/rmehner), [Carolyn](https://github.com/carolstran) and [Mohamed](https://github.com/Mohamed3on).
+
+### Special thanks to...
+
+:black_heart: [Matti Besser](https://twitter.com/m_besser) for our website design. \
+:black_heart: [co.up](http://co-up.de/) for hosting our monthly meetups. \
+:black_heart: [SeattleJS](https://github.com/seattlejs/) for the issue template inspiration.
