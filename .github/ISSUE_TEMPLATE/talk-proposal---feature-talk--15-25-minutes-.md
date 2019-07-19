@@ -2,7 +2,7 @@
 name: Talk proposal - Feature Talk (15-25 minutes)
 about: Propose a longer talk. Maximum 25 minutes.
 title: 'Talk Proposal: <talk title>'
-labels: ''
+labels: 'Feature 🎤'
 assignees: ''
 
 ---
