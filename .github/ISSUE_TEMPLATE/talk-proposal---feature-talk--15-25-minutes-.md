@@ -15,6 +15,10 @@ assignees: ''
 
 ### Your name
 
+<!-- First-time speakers are automatically moved to the top of our waitlist and we're able to offer additional support with abstract writing, slide prep, run-throughs or whatever else you may need. So if this'll be your first talk, let us know! -->
+
+- [ ] This will be my first tech talk
+
 ### Contact Details
 
 <!-- We'll mostly use this issue for communication. But it might help to leave your Twitter, Github, BerlinJS Slack or e-mail. Please let us know if we should a link to your Twitter account or website on our page. -->
