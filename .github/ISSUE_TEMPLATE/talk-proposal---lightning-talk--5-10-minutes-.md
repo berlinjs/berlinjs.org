@@ -13,7 +13,7 @@ assignees: ''
 
 <!-- Try to stick to 500 characters (about two tweets :bird:). If you know already, please let us know how long the talk will be as this helps us plan the meetups. -->
 
-### Your name
+### Your name (and pronouns)
 
 <!-- First-time speakers are automatically moved to the top of our waitlist and we're able to offer additional support with abstract writing, slide prep, run-throughs or whatever else you may need. So if this'll be your first talk, let us know! -->
 
