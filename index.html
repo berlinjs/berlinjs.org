@@ -1,188 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Berlin.JS &mdash; Berlin's finest JavaScript Usergroup</title>
-  <meta name="description" content="Berlin.JS is a usergroup focused on JavaScript and related
+  <head>
+    <meta charset="utf-8" />
+    <title>Berlin.JS &mdash; Berlin's finest JavaScript Usergroup</title>
+    <meta
+      name="description"
+      content="Berlin.JS is a usergroup focused on JavaScript and related
      topics. We meet regularly on the 3rd Thursday each month at 7p.m. at co.up Offices,
-     Adalbertstraße 7-8 in Berlin-Kreuzberg.">
-  <meta name="keywords" content="JavaScript, Usergroup, Berlin, Programming, JS">
-  <meta name="author" content="Berlin.JS">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
-  <!-- disable cache completely for now -->
-  <meta http-equiv="cache-control" content="max-age=0">
-  <meta http-equiv="cache-control" content="no-cache">
-  <meta http-equiv="expires" content="0">
-  <meta http-equiv="expires" content="Thu, 01 Jan 1970 13:37:00 GMT">
-  <meta http-equiv="pragma" content="no-cache">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" media="screen" href="css/style.css?v=1">
-  <link rel="stylesheet" media="print" href="css/print.css?v=1">
+     Adalbertstraße 7-8 in Berlin-Kreuzberg."
+    />
+    <meta
+      name="keywords"
+      content="JavaScript, Usergroup, Berlin, Programming, JS"
+    />
+    <meta name="author" content="Berlin.JS" />
+    <meta
+      name="viewport"
+      content="width=device-width, target-densitydpi=160dpi, initial-scale=1"
+    />
+    <!-- disable cache completely for now -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Thu, 01 Jan 1970 13:37:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" media="screen" href="css/style.css?v=1" />
+    <link rel="stylesheet" media="print" href="css/print.css?v=1" />
 
-  <link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css?v=1">
-  <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css?v=1">
-  <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css?v=1">
-  <link rel="stylesheet" media="only screen and (min-width: 1382px)" href="css/1382.css?v=1">
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 480px)"
+      href="css/480.css?v=1"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 768px)"
+      href="css/768.css?v=1"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 992px)"
+      href="css/992.css?v=1"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 1382px)"
+      href="css/1382.css?v=1"
+    />
 
-  <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)"
-    href="css/2x.css?v=1">
+    <link
+      rel="stylesheet"
+      media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)"
+      href="css/2x.css?v=1"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <link rel="apple-touch-icon-precomposed" href="https://berlinjs.org/apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="https://berlinjs.org/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://berlinjs.org/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://berlinjs.org/apple-touch-icon-144x144.png">
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://berlinjs.org/apple-touch-icon-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="https://berlinjs.org/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="https://berlinjs.org/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="https://berlinjs.org/apple-touch-icon-144x144.png"
+    />
 
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-</head>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+  </head>
 
-<body>
-  <header role="banner" class="clearfix">
-    <div class="clearfix">
-      <h1>
-        <a href="/" title="BERLIN.JS">
-          <img alt="BERLIN.JS" src="img/logo.png" class="logo logo-default" />
-          <img alt="BERLIN.JS" src="img/logo-x2.png" class="logo logo-2x" aria-hidden="true" />
-          <img alt="BERLIN.JS" src="img/logo-s.png" class="logo logo-s" aria-hidden="true" />
-        </a>
-      </h1>
-      <p class="ug-info triangle-border left">
-        Berlin.JS is a usergroup focused on JavaScript and related topics. We meet regularly on the 3rd Thursday each
-        month at 7pm
-        at
-        <a href="http://co-up.de" title="co.up Coworking">co.up Offices</a>, Adalbertstraße 7-8 in Berlin-Kreuzberg.
-        Talks start at 7:30pm.
-      </p>
+  <body>
+    <header role="banner" class="clearfix">
+      <div class="clearfix">
+        <h1>
+          <a href="/" title="BERLIN.JS">
+            <img alt="BERLIN.JS" src="img/logo.png" class="logo logo-default" />
+            <img
+              alt="BERLIN.JS"
+              src="img/logo-x2.png"
+              class="logo logo-2x"
+              aria-hidden="true"
+            />
+            <img
+              alt="BERLIN.JS"
+              src="img/logo-s.png"
+              class="logo logo-s"
+              aria-hidden="true"
+            />
+          </a>
+        </h1>
+        <p class="ug-info triangle-border left">
+          Berlin.JS is a usergroup focused on JavaScript and related topics. We
+          meet regularly on the 3rd Thursday each month at 7pm at
+          <a href="http://co-up.de" title="co.up Coworking">co.up Offices</a>,
+          Adalbertstraße 7-8 in Berlin-Kreuzberg. Talks start at 7:30pm.
+        </p>
+      </div>
+    </header>
+    <div role="main" class="content clearfix">
+      <article class="clearfix">
+        <header class="clearfix center">
+          <h2>
+            Next meetup on February 20
+            <sup>th</sup>
+          </h2>
+        </header>
+        <!-- TALKS -->
+        <section class="clearfix">
+          <div class="three-cols clearfix">
+            <div class="speaker">
+              <h3>Select React components via their name</h3>
+              <p class="speaker-name">
+                Baruch "Barry" Velez
+                <br />
+                <a href="https://github.com/baruchvlz">@baruchvlz</a>
+              </p>
+              <p>
+                Introduce my library to the wild, name is RESQ stands for React
+                Element Selector Query. This library allows you to select
+                components from the Fiber tree via their names (as long as the
+                names are not mangled), though mainly built for e2e testing
+                frameworks like WebdriverIO this library could be used for PoC,
+                debugging, and much more.
+              </p>
+            </div>
+            <div class="speaker">
+              <h3>Accessbility, Inputs & JavaScript</h3>
+              <p class="speaker-name">
+                Oscar
+                <br />
+                <a href="https://twitter.com/_ovlb">@_ovlb</a>
+              </p>
+              <p>
+                At the end of February, WebAIM published The WebAIM Million, an
+                accessibility analysis of the homepages of the one million most
+                visited websites.
+                <br />
+                <br />
+                The findings are depressing. The average site contains about 60
+                errors. Things went even more downhill when putting JS
+                frameworks in the equation. As a reaction to those findings,
+                this talk tries to shed light on some accessibility best
+                practices regarding accessible inputs, as well as do
+                soulsearching why we, as developers, have failed so badly.
+              </p>
+            </div>
+            <div class="speaker">
+              <h3>Upgrading your legacy code incrementally with codemods</h3>
+              <p class="speaker-name">
+                Vivek Nayyar
+                <br />
+                <a href="https://twitter.com/VivekNayyar09">@VivekNayyar09</a>
+              </p>
+              <p>
+                How many times has it happened that a new version of a library
+                is released and some of the APIs have either been deprecated or
+                been marked unsafe or at times removed completely. If you have
+                upgraded React from v14 to v16 or styled-components, you
+                understand the issue. JavaScript itself changes over time as
+                well and ideally you'll adapt to the improvements made to the
+                language.
+                <br />
+                <br />
+                The ongoing change is a challenge to web developers and in this
+                talk we'll focus on how to use JavaScript itself to keep a
+                codebase up to date by using the power of codemods. We'll use an
+                open source framework, jscodeshift, to accomplish this and we'll
+                go through their pros/cons as we become accustomed to their
+                usage.
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
     </div>
-  </header>
-  <div role="main" class="content clearfix">
-    <article class="clearfix">
-      <header class="clearfix center">
-        <h2>Next meetup on January 16
-          <sup>th</sup>
-        </h2>
-      </header>
-      <!-- TALKS -->
-      <section class="clearfix">
-        <div class="three-cols clearfix">
-          <div class="speaker">
-            <h3>Let's Test That Real Quick</h3>
-            <p class="speaker-name">Jan Stępień
-              <br />
-              <a href="https://twitter.com/janstepien">@janstepien</a>
-            </p>
+    <footer role="complimentary">
+      <div class="clearfix three-cols">
+        <div>
+          <h2>Get in touch</h2>
+          <ul>
+            <li>
+              Follow Berlin.JS on
+              <a href="https://twitter.com/berlinjs">Twitter</a>
+            </li>
+            <li>
+              Chat on our
+              <a href="https://berlinjs-slack.herokuapp.com/">Slack</a>
+            </li>
+            <li>
+              Watch the code on
+              <a href="https://github.com/berlinjs/berlinjs.org">GitHub</a>
+            </li>
+            <li>
+              We're on
+              <a href="https://www.meetup.com/Berlin-JS/">Meetup</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>The team</h2>
+          <p>
+            Berlin.JS is organized by
+            <a
+              href="https://www.twitter.com/rmehner"
+              title="Follow Robin on Twitter"
+              >Robin Mehner</a
+            >,
+            <a
+              href="https://www.twitter.com/carolstran"
+              title="Follow Carolyn on Twitter"
+              >Carolyn Stransky</a
+            >,
+            <a
+              href="https://www.twitter.com/mohamed3on"
+              title="Follow Mohamed on Twitter"
+              >Mohamed Oun</a
+            >,
+            <a
+              href="https://www.twitter.com/NikkitaFTW"
+              title="Follow Sara on Twitter"
+              >Sara Vieira</a
+            >. Design by
+            <a
+              href="https://www.twitter.com/m_besser"
+              title="Follow Matti on Twitter"
+              >Matti Besser</a
+            >.
+          </p>
+        </div>
+        <div>
+          <h2>Supporters</h2>
+          <p>
+            Our Meetups are hosted by
+            <a href="http://www.co-up.de">co.up</a>.
+          </p>
+        </div>
+      </div>
+      <section>
+        <div class="clearfix one-col">
+          <div>
+            <h2>Code of Conduct</h2>
             <p>
-              Property-based testing changes the way we look at our test suites. Instead of specifying test 
-              cases one after another, this advanced testing technique enables us to automatically generate 
-              a stream of inputs. Despite its potential, property-based testing still remains under the radar 
-              within the JavaScript community. Let’s try to uncover its strengths together.
+              Our goal is to have an awesome, inclusive and safe community
+              meetup where people meet, hang out together, chat, listen to
+              talks, exchange ideas and make new friends. Any harmful or
+              discriminating behaviour will not be tolerated and results in the
+              offending person being expelled from the meetup.
             </p>
+
             <p>
-              The talk will discuss how property-based testing compares to traditional testing methods and 
-              demonstrate its principles with simple examples. In order to bust the myth of the inapplicability 
-              of property-based testing in a real-world setting we’ll bring up some use cases from industry. 
-              Finally, we’ll wander into the world of concurrency and the automation of race condition detection.
-            </p>
-          </div>
-          <div class="speaker">
-            <h3>Code Generation with TypeScript</h3>
-            <p class="speaker-name">Benny Neugebauer
-              <br />
-              <a href="https://twitter.com/apfelbenny">@apfelbenny</a>
-            </p>
-            <p class="speaker-name">Florian Keller
-              <br />
-              <a href="https://github.com/ffflorian">@ffflorian</a>
-            </p>
-            <p>
-               Introduction to TypeScript's Compiler API which can be used to generate functional TypeScript code 
-              in an automatic manner. You will learn about TypeScript's abstract syntax tree (AST) and how to use 
-              it to construct consistent and maintainable source code.
-            </p>
-          </div>
-          <div class="speaker">
-            <h3>100% test coverage is not enough...</h3>
-            <p class="speaker-name">Shahjada Talukdar
-              <br />
-              <a href="https://twitter.com/destro_mas">@destro_mas</a>
-            </p>
-            <p>
-              Being honest, we(the developers), had a hard time testing our web applications, specially when we 
-              wanted to do e2e testing. Complex environment? flaky tests? slow and boring? A lot of manual time 
-              waits? We all faced some or all of them. Right? Let's see how we can test our code, not our patience.
+              For details on what kinds of behaviour are not tolerated and
+              consequences for violating these rules, we refer to the
+              <a href="https://rubyberlin.github.io/code-of-conduct"
+                >Berlin Code of Conduct</a
+              >.
             </p>
           </div>
         </div>
       </section>
-    </article>
-
-  </div>
-  <footer role="complimentary">
-    <div class="clearfix three-cols">
-      <div>
-        <h2>Get in touch</h2>
-        <ul>
-          <li>
-            Follow Berlin.JS on
-            <a href="https://twitter.com/berlinjs">Twitter</a>
-          </li>
-          <li>
-            Chat on our
-            <a href="https://berlinjs-slack.herokuapp.com/">Slack</a>
-          </li>
-          <li>
-            Watch the code on
-            <a href="https://github.com/berlinjs/berlinjs.org">GitHub</a>
-          </li>
-          <li>
-            We're on
-            <a href="https://www.meetup.com/Berlin-JS/">Meetup</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2>The team</h2>
-        <p>
-          Berlin.JS is organized by
-          <a href="https://www.twitter.com/rmehner" title="Follow Robin on Twitter">Robin Mehner</a>,
-          <a href="https://www.twitter.com/carolstran" title="Follow Carolyn on Twitter">Carolyn Stransky</a>,
-          <a href="https://www.twitter.com/mohamed3on" title="Follow Mohamed on Twitter">Mohamed Oun</a>,
-          <a href="https://www.twitter.com/NikkitaFTW" title="Follow Sara on Twitter">Sara Vieira</a>. Design by
-          <a href="https://www.twitter.com/m_besser" title="Follow Matti on Twitter">Matti Besser</a>.
-        </p>
-      </div>
-      <div>
-        <h2>Supporters</h2>
-        <p>
-          Our Meetups are hosted by
-          <a href="http://www.co-up.de">co.up</a>.
-        </p>
-      </div>
-    </div>
-    <section>
-      <div class="clearfix one-col">
-        <div>
-          <h2>Code of Conduct</h2>
-          <p>
-            Our goal is to have an awesome, inclusive and safe community meetup where people meet, hang out together,
-            chat, listen to
-            talks, exchange ideas and make new friends. Any harmful or discriminating behaviour will not be tolerated
-            and
-            results in the offending person being expelled from the meetup.
-          </p>
-
-          <p>
-            For details on what kinds of behaviour are not tolerated and consequences for violating these rules, we
-            refer to the
-            <a href="https://rubyberlin.github.io/code-of-conduct">Berlin Code of Conduct</a>.
-          </p>
-        </div>
-      </div>
-    </section>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
